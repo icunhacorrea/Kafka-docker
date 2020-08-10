@@ -4,7 +4,7 @@ LABEL maintainer "icorrea <icorrea@inf.ufsm.br>"
 
 
 RUN apt-get update \
-	&& apt-get install git -y \
+	&& apt-get install git vim -y \
 	&& git clone https://github.com/icunhacorrea/PerformanceKafka.git /root/PerformanceKafka
 
 WORKDIR /root/PerformanceKafka/src

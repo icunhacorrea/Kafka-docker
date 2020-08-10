@@ -7,8 +7,6 @@ services:
     hostname: zoo1
     ports:
       - 2181:2181
-    expose:
-      - 2181
     environment:
       ZOO_MY_ID: 1
       ZOO_SERVERS: server.1=0.0.0.0:2888:3888;2181 server.2=zoo2:2888:3888;2181 server.3=zoo3:2888:3888;2181
@@ -20,8 +18,6 @@ services:
     hostname: zoo2
     ports:
       - 2182:2181
-    expose:
-      - 2182
     environment:
       ZOO_MY_ID: 2
       ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=0.0.0.0:2888:3888;2181 server.3=zoo3:2888:3888;2181
@@ -33,15 +29,13 @@ services:
     hostname: zoo3
     ports:
       - 2183:2181
-    expose:
-      - 2183
     environment:
       ZOO_MY_ID: 3
       ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2181 server.3=0.0.0.0:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
 
   kafka1:
-    image: kafka:0.3
+    image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka1
     depends_on:
@@ -50,20 +44,56 @@ services:
       - zoo3
     ports:
       - 9092:9092
-    expose:
-      - 9093
     environment:
-      KAFKA_ZOOKEEPER_CONNECT: zoo1:2181,zoo2:2182,zoo3:2183
+      KAFKA_ZOOKEEPER_CONNECT: zoo1:2181,zoo2:2181,zoo3:2181
       KAFKA_BROKER_ID: 1
       KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka1:9093,OUTSIDE://localhost:9092
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
       KAFKA_LISTENERS: INSIDE://0.0.0.0:9093,OUTSIDE://0.0.0.0:9092
       KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
 
+  kafka2:
+    image: icunhacorrea/kafka:latest
+    restart: always
+    hostname: kafka2
+    depends_on:
+      - zoo1
+      - zoo2
+      - zoo3
+    ports:
+      - 9093:9093
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: zoo1:2181,zoo2:2181,zoo3:2181
+      KAFKA_BROKER_ID: 2
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka2:9094,OUTSIDE://localhost:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_LISTENERS: INSIDE://0.0.0.0:9094,OUTSIDE://0.0.0.0:9093
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+
+  kafka3:
+    image: icunhacorrea/kafka:latest
+    restart: always
+    hostname: kafka3
+    depends_on:
+      - zoo1
+      - zoo2
+      - zoo3
+    ports:
+      - 9094:9094
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: zoo1:2181,zoo2:2181,zoo3:2181
+      KAFKA_BROKER_ID: 3
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka3:9095,OUTSIDE://localhost:9094
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_LISTENERS: INSIDE://0.0.0.0:9095,OUTSIDE://0.0.0.0:9094
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+
   monitor1:
-    image: kafka-monitor:0.3
+    image: icunhacorrea/kafka-monitor:latest
     restart: always
     hostname: monitor1
     command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka
     depends_on:
       - kafka1
+      - kafka2
+      - kafka3
