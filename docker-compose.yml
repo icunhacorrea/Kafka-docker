@@ -97,3 +97,6 @@ services:
       - kafka1
       - kafka2
       - kafka3
+      - zoo1
+      - zoo2
+      - zoo3
