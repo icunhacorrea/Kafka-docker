@@ -125,6 +125,9 @@ services:
     restart: always
     network_mode: host
     hostname: producer
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.9
     command: tail -f /dev/null
     depends_on:
       - monitor1
