@@ -120,20 +120,21 @@ services:
     ports:
       - 6666:6666
 
-  producer:
-    image: icunhacorrea/kafka-producer:latest
-    restart: always
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.9
-    hostname: producer
-    command: tail -f /dev/null
-    depends_on:
-      - monitor1
+  #producer:
+  #  image: icunhacorrea/kafka-producer:latest
+  #  restart: always
+  #  networks:
+  #    kafka-net:
+  #      ipv4_address: 172.21.0.9
+  #  hostname: producer
+  #  command: tail -f /dev/null
+  #  depends_on:
+  #    - monitor1
 
 networks:
   kafka-net:
     driver: macvlan
+    driver_opts: com.docker.network.driver.mtu: 1500
     ipam:
       driver: default
       config:
