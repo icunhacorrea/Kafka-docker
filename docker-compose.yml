@@ -5,9 +5,9 @@ services:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo1
-    #networks:
-    #  kafka-net:
-    #    ipv4_address: 172.21.0.2
+    networks:
+      kafka-net:
+        ipv4_address: 172.21.0.2
     ports:
       - 2181:2181
     environment:
@@ -19,9 +19,9 @@ services:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo2
-    #networks:
-    #  kafka-net:
-    #    ipv4_address: 172.21.0.3
+    networks:
+      kafka-net:
+        ipv4_address: 172.21.0.3
     depends_on:
       - zoo1
     ports:
@@ -35,9 +35,9 @@ services:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo3
-    #networks:
-    #  kafka-net:
-    #    ipv4_address: 172.21.0.4
+    networks:
+      kafka-net:
+        ipv4_address: 172.21.0.4
     depends_on:
       - zoo2
     ports:
@@ -51,9 +51,9 @@ services:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka1
-    #networks:
-    #  kafka-net:
-    #    ipv4_address: 172.21.0.5
+    networks:
+      kafka-net:
+        ipv4_address: 172.21.0.5
     depends_on:
       - zoo3
     ports:
@@ -71,9 +71,9 @@ services:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka2
-    #networks:
-    #  kafka-net:
-    #    ipv4_address: 172.21.0.6
+    networks:
+      kafka-net:
+        ipv4_address: 172.21.0.6
     depends_on:
       - kafka1
     ports:
@@ -91,9 +91,9 @@ services:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka3
-    #networks:
-    #  kafka-net:
-    #    ipv4_address: 172.21.0.7
+    networks:
+      kafka-net:
+        ipv4_address: 172.21.0.7
     depends_on:
       - kafka2
     ports:
@@ -111,9 +111,9 @@ services:
     image: icunhacorrea/kafka-monitor:latest
     restart: always
     hostname: monitor1
-    #networks:
-    #  kafka-net:
-    #    ipv4_address: 172.21.0.8
+    networks:
+      kafka-net:
+        ipv4_address: 172.21.0.8
     command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka
     depends_on:
       - kafka3
@@ -134,7 +134,7 @@ services:
 networks:
   kafka-net:
     driver: macvlan
-    driver_opts: com.docker.network.driver.mtu: 1500
+    #driver_opts: com.docker.network.driver.mtu: 1500
     ipam:
       driver: default
       config:
