@@ -39,6 +39,7 @@ services:
       kafka-net:
         ipv4_address: 172.21.0.4
     depends_on:
+      - zoo1
       - zoo2
     ports:
       - 2183:2181
@@ -54,12 +55,17 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.5
+    #sysctls:
+    #  net.ipv4.tcp_retries1: 1
+    #  net.ipv4.tcp_retries2: 1
     depends_on:
+      - zoo1
+      - zoo2
       - zoo3
     ports:
       - 9093:9092
     environment:
-      #HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
+      HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
       KAFKA_ZOOKEEPER_CONNECT: 172.21.0.2:2181,172.21.0.3:2181,172.21.0.4:2181
       KAFKA_BROKER_ID: 1
       KAFKA_ADVERTISED_LISTENERS: INSIDE://172.21.0.5:9092,OUTSIDE://localhost:9093
@@ -74,12 +80,18 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.6
+    #sysctls:
+    #  net.ipv4.tcp_retries1: 1
+    #  net.ipv4.tcp_retries2: 1
     depends_on:
+      - zoo1
+      - zoo2
+      - zoo3
       - kafka1
     ports:
       - 9094:9092
     environment:
-      #HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
+      HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
       KAFKA_ZOOKEEPER_CONNECT: 172.21.0.2:2181,172.21.0.3:2181,172.21.0.4:2181
       KAFKA_BROKER_ID: 2
       KAFKA_ADVERTISED_LISTENERS: INSIDE://172.21.0.6:9092,OUTSIDE://localhost:9094
@@ -94,12 +106,19 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.7
+    #sysctls:
+    #  net.ipv4.tcp_retries1: 1
+    #  net.ipv4.tcp_retries2: 1
     depends_on:
+      - zoo1
+      - zoo2
+      - zoo3
+      - kafka1
       - kafka2
     ports:
       - 9095:9092
     environment:
-      #HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
+      HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
       KAFKA_ZOOKEEPER_CONNECT: 172.21.0.2:2181,172.21.0.3:2181,172.21.0.4:2181
       KAFKA_BROKER_ID: 3
       KAFKA_ADVERTISED_LISTENERS: INSIDE://172.21.0.7:9092,OUTSIDE://localhost:9095
@@ -114,8 +133,16 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.8
+    #sysctls:
+    #  net.ipv4.tcp_retries1: 1
+    #  net.ipv4.tcp_retries2: 1
     command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka
     depends_on:
+      - zoo1
+      - zoo2
+      - zoo3
+      - kafka1
+      - kafka2
       - kafka3
     ports:
       - 6666:6666
@@ -123,18 +150,31 @@ services:
   producer:
     image: icunhacorrea/kafka-producer:latest
     restart: always
-    network_mode: host
+    networks:
+      kafka-net:
+        ipv4_address: 172.21.0.9
+    sysctls:
+      net.ipv4.tcp_retries1: 1
+      net.ipv4.tcp_retries2: 1
     hostname: producer
     #networks:
     #  kafka-net:
     #    ipv4_address: 172.21.0.9
     command: tail -f /dev/null
     depends_on:
+      - zoo1
+      - zoo2
+      - zoo3
+      - kafka1
+      - kafka2
+      - kafka3
       - monitor1
 
 networks:
   kafka-net:
-    driver: bridge
+    driver: macvlan
+    driver_opts:                         
+      com.docker.network.driver.mtu: 1472
     ipam:
       driver: default
       config:
