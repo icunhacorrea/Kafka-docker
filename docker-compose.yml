@@ -5,39 +5,39 @@ services:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo1
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.2
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.2
     ports:
       - 2181:2181
     environment:
       ZOO_MY_ID: 1
-      ZOO_SERVERS: server.1=0.0.0.0:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
+      ZOO_SERVERS: server.1=0.0.0.0:2888:3888;2181 server.2=zoo2:2888:3888;2181 server.3=zoo3:2888:3888;2181 server.4=zoo4:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
 
   zoo2:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo2
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.3
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.3
     depends_on:
       - zoo1
     ports:
       - 2182:2181
     environment:
       ZOO_MY_ID: 2
-      ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=0.0.0.0:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
+      ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=0.0.0.0:2888:3888;2181 server.3=zoo3:2888:3888;2181 server.4=zoo4:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
 
   zoo3:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo3
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.4
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.4
     depends_on:
       - zoo1
       - zoo2
@@ -45,16 +45,16 @@ services:
       - 2183:2181
     environment:
       ZOO_MY_ID: 3
-      ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=0.0.0.0:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
+      ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2181 server.3=0.0.0.0:2888:3888;2181 server.4=zoo42888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
 
   zoo4:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo4
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.10
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.10
     depends_on:
       - zoo1
       - zoo2
@@ -63,19 +63,16 @@ services:
       - 2184:2181
     environment:
       ZOO_MY_ID: 4
-      ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=0.0.0.0:2888:3888;2181
+      ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2181 server.3=zoo3:2888:3888;2181 server.4=0.0.0.0:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
 
   kafka1:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka1
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.5
-    #sysctls:
-    #  net.ipv4.tcp_retries1: 1
-    #  net.ipv4.tcp_retries2: 1
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.5
     depends_on:
       - zoo1
       - zoo2
@@ -85,7 +82,7 @@ services:
       - 9093:9092
     environment:
       HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
-      KAFKA_ZOOKEEPER_CONNECT: 172.21.0.2:2181,172.21.0.3:2181,172.21.0.4:2181,172.21.0.10:2181
+      KAFKA_ZOOKEEPER_CONNECT: zoo1:2181,zoo2:2181,zoo3:2181,zoo4:2181
       KAFKA_BROKER_ID: 1
       KAFKA_ADVERTISED_LISTENERS: INSIDE://172.21.0.5:9092,OUTSIDE://localhost:9093
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
@@ -96,12 +93,9 @@ services:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka2
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.6
-    #sysctls:
-    #  net.ipv4.tcp_retries1: 1
-    #  net.ipv4.tcp_retries2: 1
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.6
     depends_on:
       - zoo1
       - zoo2
@@ -112,7 +106,7 @@ services:
       - 9094:9092
     environment:
       HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
-      KAFKA_ZOOKEEPER_CONNECT: 172.21.0.2:2181,172.21.0.3:2181,172.21.0.4:2181,172.21.0.10:2181
+      KAFKA_ZOOKEEPER_CONNECT: zoo1:2181,zoo2:2181,zoo3:2181,zoo4:2181
       KAFKA_BROKER_ID: 2
       KAFKA_ADVERTISED_LISTENERS: INSIDE://172.21.0.6:9092,OUTSIDE://localhost:9094
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
@@ -123,12 +117,9 @@ services:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka3
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.7
-    #sysctls:
-    #  net.ipv4.tcp_retries1: 1
-    #  net.ipv4.tcp_retries2: 1
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.7
     depends_on:
       - zoo1
       - zoo2
@@ -140,7 +131,7 @@ services:
       - 9095:9092
     environment:
       HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
-      KAFKA_ZOOKEEPER_CONNECT: 172.21.0.2:2181,172.21.0.3:2181,172.21.0.4:2181,172.21.0.10:2181
+      KAFKA_ZOOKEEPER_CONNECT: zoo1:2181,zoo2:2181,zoo3:2181,zoo4:2181
       KAFKA_BROKER_ID: 3
       KAFKA_ADVERTISED_LISTENERS: INSIDE://172.21.0.7:9092,OUTSIDE://localhost:9095
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
@@ -151,12 +142,9 @@ services:
     image: icunhacorrea/kafka-monitor:latest
     restart: always
     hostname: monitor1
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.8
-    #sysctls:
-    #  net.ipv4.tcp_retries1: 1
-    #  net.ipv4.tcp_retries2: 1
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.8
     command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka
     depends_on:
       - zoo1
@@ -172,9 +160,9 @@ services:
   producer:
     image: icunhacorrea/kafka-producer:latest
     restart: always
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.9
+    #networks:
+    #  kafka-net:
+    #    ipv4_address: 172.21.0.9
     sysctls:
       net.ipv4.tcp_retries1: 1
       net.ipv4.tcp_retries2: 1
@@ -193,12 +181,12 @@ services:
       - kafka3
       - monitor1
 
-networks:
-  kafka-net:
-    driver: macvlan
-    driver_opts:                         
-      com.docker.network.driver.mtu: 1472
-    ipam:
-      driver: default
-      config:
-        - subnet: 172.21.0.0/24
+#networks:
+#  kafka-net:
+#    driver: macvlan
+#    driver_opts:                         
+#      com.docker.network.driver.mtu: 1472
+#    ipam:
+#      driver: default
+#      config:
+#        - subnet: 172.21.0.0/24
