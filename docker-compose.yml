@@ -73,9 +73,9 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.5
-    #sysctls:
-    #  net.ipv4.tcp_retries1: 1
-    #  net.ipv4.tcp_retries2: 1
+    sysctls:
+      net.ipv4.tcp_retries1: 0
+      net.ipv4.tcp_retries2: 0
     depends_on:
       - zoo1
       - zoo2
@@ -99,6 +99,9 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.6
+    sysctls:
+      net.ipv4.tcp_retries1: 0
+      net.ipv4.tcp_retries2: 0
     depends_on:
       - zoo1
       - zoo2
@@ -123,6 +126,9 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.7
+    sysctls:
+      net.ipv4.tcp_retries1: 0
+      net.ipv4.tcp_retries2: 0
     depends_on:
       - zoo1
       - zoo2
