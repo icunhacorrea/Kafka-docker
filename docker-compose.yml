@@ -142,6 +142,14 @@ services:
     image: icunhacorrea/kafka-monitor:latest
     restart: always
     hostname: monitor1
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.8
