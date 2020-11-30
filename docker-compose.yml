@@ -47,6 +47,7 @@ services:
       ZOO_MY_ID: 3
       ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=0.0.0.0:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
+      JVMFLAGS: ""
 
   zoo4:
     image: zookeeper:3.6.1
@@ -145,7 +146,7 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.8
-    command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka
+    command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka -Xms2G -Xmx2G
     depends_on:
       - zoo1
       - zoo2
