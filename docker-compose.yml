@@ -1,56 +1,6 @@
 version: '3.1'
 
 services:
-  zoo1:
-    image: zookeeper:3.6.1
-    restart: always
-    hostname: zoo1
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.2
-    ports:
-      - 2181:2181
-    environment:
-      ZOO_MY_ID: 1
-      ZOO_SERVERS: server.1=0.0.0.0:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
-      ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
-      JVMFLAGS: "-Xms2G -Xmx2G"
-
-  zoo2:
-    image: zookeeper:3.6.1
-    restart: always
-    hostname: zoo2
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.3
-    depends_on:
-      - zoo1
-    ports:
-      - 2182:2181
-    environment:
-      ZOO_MY_ID: 2
-      ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=0.0.0.0:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
-      ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
-      JVMFLAGS: "-Xms2G -Xmx2G"
-
-  zoo3:
-    image: zookeeper:3.6.1
-    restart: always
-    hostname: zoo3
-    networks:
-      kafka-net:
-        ipv4_address: 172.21.0.4
-    depends_on:
-      - zoo1
-      - zoo2
-    ports:
-      - 2183:2181
-    environment:
-      ZOO_MY_ID: 3
-      ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=0.0.0.0:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
-      ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
-      JVMFLAGS: "-Xms2G -Xmx2G"
-
   zoo4:
     image: zookeeper:3.6.1
     restart: always
@@ -66,7 +16,7 @@ services:
       - 2184:2181
     environment:
       ZOO_MY_ID: 4
-      ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=0.0.0.0:2888:3888;2181
+      ZOO_SERVERS: server.1=172.21.0.10:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
       JVMFLAGS: -Xms4G -Xmx4G
 
