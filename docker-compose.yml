@@ -8,10 +8,6 @@ services:
     networks:
       kafka-net:
         ipv4_address: 172.21.0.10
-    depends_on:
-      - zoo1
-      - zoo2
-      - zoo3
     ports:
       - 2184:2181
     environment:
