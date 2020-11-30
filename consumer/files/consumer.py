@@ -11,7 +11,7 @@ def checkDuplicates(total):
     qntDuplicates = len(keys_list) - len(keysSet)
 
     print("Consumido " + str(total) + " de mensagens.")
-    print(str(qntDuplicates) + "de mensagens duplicadas.")
+    print(str(qntDuplicates) + " de mensagens duplicadas.")
     return
 
 def main():
