@@ -14,6 +14,7 @@ services:
       ZOO_MY_ID: 1
       ZOO_SERVERS: server.1=0.0.0.0:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
+      JVMFLAGS: "-Xms2G -Xmx2G"
 
   zoo2:
     image: zookeeper:3.6.1
@@ -30,6 +31,7 @@ services:
       ZOO_MY_ID: 2
       ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=0.0.0.0:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
+      JVMFLAGS: "-Xms2G -Xmx2G"
 
   zoo3:
     image: zookeeper:3.6.1
@@ -47,7 +49,7 @@ services:
       ZOO_MY_ID: 3
       ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=0.0.0.0:2888:3888;2181 server.4=172.21.0.10:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
-      JVMFLAGS: ""
+      JVMFLAGS: "-Xms2G -Xmx2G"
 
   zoo4:
     image: zookeeper:3.6.1
@@ -66,6 +68,7 @@ services:
       ZOO_MY_ID: 4
       ZOO_SERVERS: server.1=172.21.0.2:2888:3888;2181 server.2=172.21.0.3:2888:3888;2181 server.3=172.21.0.4:2888:3888;2181 server.4=0.0.0.0:2888:3888;2181
       ZOO_CFG_EXTRA: "extendedTypesEnabled=true emulate353TTLNodes=true"
+      JVMFLAGS: "-Xms2G -Xmx2G"
 
   kafka1:
     image: icunhacorrea/kafka:latest
