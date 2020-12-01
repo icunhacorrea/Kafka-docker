@@ -164,6 +164,15 @@ services:
   producer:
     image: icunhacorrea/kafka-producer:latest
     restart: always
+    hostname: producer1
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.9
