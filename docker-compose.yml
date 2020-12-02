@@ -102,6 +102,14 @@ services:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka1
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.5
@@ -125,6 +133,14 @@ services:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka2
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.6
@@ -149,6 +165,14 @@ services:
     image: icunhacorrea/kafka:latest
     restart: always
     hostname: kafka3
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.7
