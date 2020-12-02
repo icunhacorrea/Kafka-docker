@@ -5,6 +5,14 @@ services:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo1
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.2
@@ -19,6 +27,14 @@ services:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo2
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.3
@@ -35,6 +51,14 @@ services:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo3
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.4
@@ -52,6 +76,14 @@ services:
     image: zookeeper:3.6.1
     restart: always
     hostname: zoo4
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.10
@@ -177,7 +209,7 @@ services:
       kafka-net:
         ipv4_address: 172.21.0.9
     sysctls:
-        net.ipv4.tcp_retries1: 2
+        net.ipv4.tcp_retries1: 1
         net.ipv4.tcp_retries2: 2
         #net.ipv4.tcp_syn_retries: 1
         #net.ipv4.tcp_synack_retries: 0
