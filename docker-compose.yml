@@ -171,14 +171,14 @@ services:
           cpus: '1'
           memory: 4G
         reservations:
-          cpus: '1'
+          cpus: '1.5'
           memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.9
     sysctls:
         net.ipv4.tcp_retries1: 2
-        net.ipv4.tcp_retries2: 4
+        net.ipv4.tcp_retries2: 2
         #net.ipv4.tcp_syn_retries: 1
         #net.ipv4.tcp_synack_retries: 0
         #net.ipv4.tcp_dsack: 0
