@@ -142,10 +142,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '4'
           memory: 4G
         reservations:
-          cpus: '1.5'
+          cpus: '4'
           memory: 4G
     networks:
       kafka-net:
