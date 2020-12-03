@@ -41,9 +41,6 @@ services:
         ipv4_address: 172.21.0.5
     depends_on:
       - zoo1
-      - zoo2
-      - zoo3
-      - zoo4
     ports:
       - 9093:9092
     environment:
@@ -72,9 +69,6 @@ services:
         ipv4_address: 172.21.0.6
     depends_on:
       - zoo1
-      - zoo2
-      - zoo3
-      - zoo4
       - kafka1
     ports:
       - 9094:9092
@@ -104,9 +98,6 @@ services:
         ipv4_address: 172.21.0.7
     depends_on:
       - zoo1
-      - zoo2
-      - zoo3
-      - zoo4
       - kafka1
       - kafka2
     ports:
@@ -138,9 +129,6 @@ services:
     command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka
     depends_on:
       - zoo1
-      - zoo2
-      - zoo3
-      - zoo4
       - kafka1
       - kafka2
       - kafka3
@@ -177,9 +165,6 @@ services:
     command: tail -f /dev/null
     depends_on:
       - zoo1
-      - zoo2
-      - zoo3
-      - zoo4
       - kafka1
       - kafka2
       - kafka3
