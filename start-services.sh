@@ -1,6 +1,7 @@
 #!/bin/bash
 
 docker-compose down
+docker system prune -f
 docker-compose up -d
 sleep 5
 docker container exec kafka-docker_kafka3_1 bash create-topic.sh 3 3 test-topic
