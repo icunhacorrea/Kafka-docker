@@ -6,6 +6,9 @@ for percent in 0 2 4 6 8 10; do
 			echo $i $ack $percent
 
 			docker-compose down
+
+			docker system prune -f
+
 			docker-compose up -d
 			sleep 5
 			docker container exec kafka-docker_kafka3_1 bash create-topic.sh 3 3 test-topic
@@ -15,7 +18,7 @@ for percent in 0 2 4 6 8 10; do
 
 			docker container exec kafka-docker_producer_1 bash execute.sh test-topic $ack 500000 500 > ./logs/log-$percent-$ack-$i.log
 
-			
+
 			# Remoção da falha.
 			kill -9 $( pgrep pumba )
 
