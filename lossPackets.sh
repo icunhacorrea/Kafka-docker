@@ -1,5 +1,8 @@
 #!/bin/bash
 
+docker-compose down -v
+docker system prune -f
+
 for percent in 2 4 6 8 10; do
 	for ack in -2 -1 0 1; do
 		for i in {0..19}; do
