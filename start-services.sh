@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker-compose down
+docker-compose down -v
 docker system prune -f
 docker-compose up -d
 sleep 5
