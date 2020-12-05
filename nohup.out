@@ -1,45 +1,0 @@
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Stopping kafka-docker_producer_1 ... 
-Stopping kafka-docker_monitor1_1 ... 
-Stopping kafka-docker_kafka3_1   ... 
-Stopping kafka-docker_kafka2_1   ... 
-Stopping kafka-docker_kafka1_1   ... 
-Stopping kafka-docker_zoo1_1     ... 
-[6A[2KStopping kafka-docker_producer_1 ... [32mdone[0m[6B[5A[2KStopping kafka-docker_monitor1_1 ... [32mdone[0m[5B[4A[2KStopping kafka-docker_kafka3_1   ... [32mdone[0m[4B[3A[2KStopping kafka-docker_kafka2_1   ... [32mdone[0m[3B[2A[2KStopping kafka-docker_kafka1_1   ... [32mdone[0m[2B[1A[2KStopping kafka-docker_zoo1_1     ... [32mdone[0m[1BRemoving kafka-docker_producer_1 ... 
-Removing kafka-docker_monitor1_1 ... 
-Removing kafka-docker_kafka3_1   ... 
-Removing kafka-docker_kafka2_1   ... 
-Removing kafka-docker_kafka1_1   ... 
-Removing kafka-docker_zoo1_1     ... 
-[2A[2KRemoving kafka-docker_kafka1_1   ... [32mdone[0m[2B[4A[2KRemoving kafka-docker_kafka3_1   ... [32mdone[0m[4B[3A[2KRemoving kafka-docker_kafka2_1   ... [32mdone[0m[3B[6A[2KRemoving kafka-docker_producer_1 ... [32mdone[0m[6B[1A[2KRemoving kafka-docker_zoo1_1     ... [32mdone[0m[1B[5A[2KRemoving kafka-docker_monitor1_1 ... [32mdone[0m[5BRemoving network kafka-docker_kafka-net
-Deleted Images:
-deleted: sha256:db8be4a93eb9f4bf4d51ce625158e3efaef21c74b1e3b3a8869956d238efa16e
-deleted: sha256:f331057f9c3a1d7ca735c3a86a60182dcbc6cb9ec40a735d05eea78a13f44a8e
-deleted: sha256:445ca9c2f733a101c3f2a96dc7700491672af295104d51ee92e9bc2677d12147
-deleted: sha256:58bf5f248470a65a40f42170fc2b3d9f9e59c04d44e45c66f2b161461aef5d32
-deleted: sha256:5452f2d644abb8a1e8a2aa9c77c1a3274ef55510daa46bacb2381ce78ad431dc
-deleted: sha256:b5efaa37241829ffdcbb90fa58093e5c3c48149aff99e3406fa7fc7b62f608b4
-
-Total reclaimed space: 41.45MB
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Creating network "kafka-docker_kafka-net" with driver "macvlan"
-Creating kafka-docker_zoo1_1 ... 
-[1A[2KCreating kafka-docker_zoo1_1 ... [32mdone[0m[1BCreating kafka-docker_kafka1_1 ... 
-[1A[2KCreating kafka-docker_kafka1_1 ... [32mdone[0m[1BCreating kafka-docker_kafka2_1 ... 
-[1A[2KCreating kafka-docker_kafka2_1 ... [32mdone[0m[1BCreating kafka-docker_kafka3_1 ... 
-[1A[2KCreating kafka-docker_kafka3_1 ... [32mdone[0m[1BCreating kafka-docker_monitor1_1 ... 
-[1A[2KCreating kafka-docker_monitor1_1 ... [32mdone[0m[1BCreating kafka-docker_producer_1 ... 
-[1A[2KCreating kafka-docker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
- 3 brokers:
-  broker 2 at 172.21.0.6:9092
-  broker 3 at 172.21.0.7:9092
-  broker 1 at 172.21.0.5:9092
- 1 topics:
-  topic "test-topic" with 3 partitions:
-    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
-    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
-    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
-log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-The watcher socker server is running...
