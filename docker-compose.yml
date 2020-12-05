@@ -119,14 +119,14 @@ services:
       resources:
         limits:
           cpus: '4'
-          memory: 4G
+          memory: 10G
         reservations:
           cpus: '4'
           memory: 4G
     networks:
       kafka-net:
         ipv4_address: 172.21.0.8
-    command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka
+    command: java -cp "WatcherKafka.jar:../jars/*" main.WatcherKafka -Xms2048M -Xmx8192M
     depends_on:
       - zoo1
       - kafka1
