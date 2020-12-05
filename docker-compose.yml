@@ -8,10 +8,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
         reservations:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
     networks:
       kafka-net:
@@ -30,10 +30,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
         reservations:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
     networks:
       kafka-net:
@@ -54,10 +54,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
         reservations:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
     networks:
       kafka-net:
@@ -79,10 +79,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
         reservations:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
     networks:
       kafka-net:
@@ -105,10 +105,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
         reservations:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
     networks:
       kafka-net:
@@ -136,10 +136,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
         reservations:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
     networks:
       kafka-net:
@@ -168,10 +168,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
         reservations:
-          cpus: '1'
+          cpus: '2'
           memory: 4G
     networks:
       kafka-net:
@@ -201,10 +201,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '4'
+          cpus: '2'
           memory: 10G
         reservations:
-          cpus: '4'
+          cpus: '2'
           memory: 4G
     networks:
       kafka-net:
@@ -228,10 +228,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '3'
+          cpus: '1'
           memory: 4G
         reservations:
-          cpus: '3'
+          cpus: '1'
           memory: 4G
     networks:
       kafka-net:
