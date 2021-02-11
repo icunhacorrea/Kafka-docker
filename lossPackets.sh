@@ -3,8 +3,8 @@
 docker-compose down -v
 docker system prune -f
 
-for percent in 9; do
-	for ack in -2 0; do
+for percent in 3; do
+	for ack in 0; do
 		for i in {0..19}; do
 			echo $i $ack $percent
 
@@ -12,8 +12,8 @@ for percent in 9; do
 			sleep 5
 			docker container exec kafkadocker_kafka3_1 bash create-topic.sh 3 3 test-topic
 			# Inserção da falha
-			pumba netem -d 36h loss-state --p13 $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' ) &
-			#pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' ) &		
+			#pumba netem -d 36h loss-state --p13 $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' ) &
+			pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' ) &		
 			sleep 5
 
 			# Execução
