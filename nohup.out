@@ -1,4 +1,45 @@
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Removing network kafkadocker_kafka-net
+Network kafkadocker_kafka-net not found.
+Total reclaimed space: 0B
+0 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 1, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 2, leader 3, replicas: 3,1,2, isrs: 3,1,2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Stopping kafkadocker_producer_1 ... 
 Stopping kafkadocker_monitor1_1 ... 
 Stopping kafkadocker_kafka3_1   ... 
@@ -17,9 +58,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 22556 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-0 0 3
+1 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -47,9 +89,9 @@ Creating kafkadocker_producer_1
   broker 1 at 172.21.0.5:9092
  1 topics:
   topic "test-topic" with 3 partitions:
-    partition 0, leader 2, replicas: 2,1,3, isrs: 2,1,3
-    partition 1, leader 3, replicas: 3,2,1, isrs: 3,2,1
-    partition 2, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
@@ -75,10 +117,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 10569 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 27880 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-1 0 3
+2 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -99,7 +141,7 @@ Creating kafkadocker_kafka3_1
 Creating kafkadocker_monitor1_1
 [1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
 Creating kafkadocker_producer_1
-[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 3: 172.21.0.7:9092/3):
  3 brokers:
   broker 2 at 172.21.0.6:9092
   broker 3 at 172.21.0.7:9092
@@ -134,10 +176,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 16092 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 33275 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-2 0 3
+3 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -158,7 +200,125 @@ Creating kafkadocker_kafka3_1
 Creating kafkadocker_monitor1_1
 [1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
 Creating kafkadocker_producer_1
-[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 3: 172.21.0.7:9092/3):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 1, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 2, leader 3, replicas: 3,1,2, isrs: 3,1,2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 38570 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+4 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 43893 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+5 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
  3 brokers:
   broker 2 at 172.21.0.6:9092
   broker 3 at 172.21.0.7:9092
@@ -193,10 +353,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 21411 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8:   447 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-3 0 3
+6 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -224,127 +384,9 @@ Creating kafkadocker_producer_1
   broker 1 at 172.21.0.5:9092
  1 topics:
   topic "test-topic" with 3 partitions:
-    partition 0, leader 2, replicas: 2,1,3, isrs: 2,1,3
-    partition 1, leader 3, replicas: 3,2,1, isrs: 3,2,1
-    partition 2, leader 1, replicas: 1,3,2, isrs: 1,3,2
-SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Stopping kafkadocker_producer_1 ... 
-Stopping kafkadocker_monitor1_1 ... 
-Stopping kafkadocker_kafka3_1   ... 
-Stopping kafkadocker_kafka2_1   ... 
-Stopping kafkadocker_kafka1_1   ... 
-Stopping kafkadocker_zoo4_1     ... 
-Stopping kafkadocker_zoo3_1     ... 
-Stopping kafkadocker_zoo2_1     ... 
-Stopping kafkadocker_zoo1_1     ... 
-[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
-Removing kafkadocker_monitor1_1 ... 
-Removing kafkadocker_kafka3_1   ... 
-Removing kafkadocker_kafka2_1   ... 
-Removing kafkadocker_kafka1_1   ... 
-Removing kafkadocker_zoo4_1     ... 
-Removing kafkadocker_zoo3_1     ... 
-Removing kafkadocker_zoo2_1     ... 
-Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 26736 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
-Total reclaimed space: 0B
-4 0 3
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Creating network "kafkadocker_kafka-net" with driver "bridge"
-Creating kafkadocker_zoo1_1 ... 
-Creating kafkadocker_zoo1_1
-[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
-Creating kafkadocker_zoo2_1
-[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
-Creating kafkadocker_zoo3_1
-[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
-Creating kafkadocker_zoo4_1
-[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
-Creating kafkadocker_kafka1_1
-[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
-Creating kafkadocker_kafka2_1
-[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
-Creating kafkadocker_kafka3_1
-[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
-Creating kafkadocker_monitor1_1
-[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
-Creating kafkadocker_producer_1
-[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 3: 172.21.0.7:9092/3):
- 3 brokers:
-  broker 2 at 172.21.0.6:9092
-  broker 3 at 172.21.0.7:9092
-  broker 1 at 172.21.0.5:9092
- 1 topics:
-  topic "test-topic" with 3 partitions:
-    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
-    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
-    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
-SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Stopping kafkadocker_producer_1 ... 
-Stopping kafkadocker_monitor1_1 ... 
-Stopping kafkadocker_kafka3_1   ... 
-Stopping kafkadocker_kafka2_1   ... 
-Stopping kafkadocker_kafka1_1   ... 
-Stopping kafkadocker_zoo4_1     ... 
-Stopping kafkadocker_zoo3_1     ... 
-Stopping kafkadocker_zoo2_1     ... 
-Stopping kafkadocker_zoo1_1     ... 
-[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
-Removing kafkadocker_monitor1_1 ... 
-Removing kafkadocker_kafka3_1   ... 
-Removing kafkadocker_kafka2_1   ... 
-Removing kafkadocker_kafka1_1   ... 
-Removing kafkadocker_zoo4_1     ... 
-Removing kafkadocker_zoo3_1     ... 
-Removing kafkadocker_zoo2_1     ... 
-Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 32119 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
-Total reclaimed space: 0B
-5 0 3
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Creating network "kafkadocker_kafka-net" with driver "bridge"
-Creating kafkadocker_zoo1_1 ... 
-Creating kafkadocker_zoo1_1
-[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
-Creating kafkadocker_zoo2_1
-[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
-Creating kafkadocker_zoo3_1
-[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
-Creating kafkadocker_zoo4_1
-[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
-Creating kafkadocker_kafka1_1
-[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
-Creating kafkadocker_kafka2_1
-[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
-Creating kafkadocker_kafka3_1
-[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
-Creating kafkadocker_monitor1_1
-[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
-Creating kafkadocker_producer_1
-[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 3: 172.21.0.7:9092/3):
- 3 brokers:
-  broker 2 at 172.21.0.6:9092
-  broker 3 at 172.21.0.7:9092
-  broker 1 at 172.21.0.5:9092
- 1 topics:
-  topic "test-topic" with 3 partitions:
-    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
-    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
-    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 0, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 1, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 2, leader 3, replicas: 3,1,2, isrs: 3,1,2
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
@@ -371,68 +413,9 @@ Removing kafkadocker_zoo3_1     ...
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
 [9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 37468 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+./lossPackets.sh: line 8:  5943 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-6 0 3
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Creating network "kafkadocker_kafka-net" with driver "bridge"
-Creating kafkadocker_zoo1_1 ... 
-Creating kafkadocker_zoo1_1
-[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
-Creating kafkadocker_zoo2_1
-[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
-Creating kafkadocker_zoo3_1
-[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
-Creating kafkadocker_zoo4_1
-[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
-Creating kafkadocker_kafka1_1
-[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
-Creating kafkadocker_kafka2_1
-[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
-Creating kafkadocker_kafka3_1
-[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
-Creating kafkadocker_monitor1_1
-[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
-Creating kafkadocker_producer_1
-[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
- 3 brokers:
-  broker 2 at 172.21.0.6:9092
-  broker 3 at 172.21.0.7:9092
-  broker 1 at 172.21.0.5:9092
- 1 topics:
-  topic "test-topic" with 3 partitions:
-    partition 0, leader 1, replicas: 1,3,2, isrs: 1,3,2
-    partition 1, leader 2, replicas: 2,1,3, isrs: 2,1,3
-    partition 2, leader 3, replicas: 3,2,1, isrs: 3,2,1
-SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Stopping kafkadocker_producer_1 ... 
-Stopping kafkadocker_monitor1_1 ... 
-Stopping kafkadocker_kafka3_1   ... 
-Stopping kafkadocker_kafka2_1   ... 
-Stopping kafkadocker_kafka1_1   ... 
-Stopping kafkadocker_zoo4_1     ... 
-Stopping kafkadocker_zoo3_1     ... 
-Stopping kafkadocker_zoo2_1     ... 
-Stopping kafkadocker_zoo1_1     ... 
-[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
-Removing kafkadocker_monitor1_1 ... 
-Removing kafkadocker_kafka3_1   ... 
-Removing kafkadocker_kafka2_1   ... 
-Removing kafkadocker_kafka1_1   ... 
-Removing kafkadocker_zoo4_1     ... 
-Removing kafkadocker_zoo3_1     ... 
-Removing kafkadocker_zoo2_1     ... 
-Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 42858 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
-Total reclaimed space: 0B
-7 0 3
+7 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -488,69 +471,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 48217 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 11257 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-8 0 3
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Creating network "kafkadocker_kafka-net" with driver "bridge"
-Creating kafkadocker_zoo1_1 ... 
-Creating kafkadocker_zoo1_1
-[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
-Creating kafkadocker_zoo2_1
-[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
-Creating kafkadocker_zoo3_1
-[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
-Creating kafkadocker_zoo4_1
-[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
-Creating kafkadocker_kafka1_1
-[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
-Creating kafkadocker_kafka2_1
-[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
-Creating kafkadocker_kafka3_1
-[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
-Creating kafkadocker_monitor1_1
-[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
-Creating kafkadocker_producer_1
-[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
- 3 brokers:
-  broker 2 at 172.21.0.6:9092
-  broker 3 at 172.21.0.7:9092
-  broker 1 at 172.21.0.5:9092
- 1 topics:
-  topic "test-topic" with 3 partitions:
-    partition 0, leader 2, replicas: 2,1,3, isrs: 2,1,3
-    partition 1, leader 3, replicas: 3,2,1, isrs: 3,2,1
-    partition 2, leader 1, replicas: 1,3,2, isrs: 1,3,2
-SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Stopping kafkadocker_producer_1 ... 
-Stopping kafkadocker_monitor1_1 ... 
-Stopping kafkadocker_kafka3_1   ... 
-Stopping kafkadocker_kafka2_1   ... 
-Stopping kafkadocker_kafka1_1   ... 
-Stopping kafkadocker_zoo4_1     ... 
-Stopping kafkadocker_zoo3_1     ... 
-Stopping kafkadocker_zoo2_1     ... 
-Stopping kafkadocker_zoo1_1     ... 
-[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
-Removing kafkadocker_monitor1_1 ... 
-Removing kafkadocker_kafka3_1   ... 
-Removing kafkadocker_kafka2_1   ... 
-Removing kafkadocker_kafka1_1   ... 
-Removing kafkadocker_zoo4_1     ... 
-Removing kafkadocker_zoo3_1     ... 
-Removing kafkadocker_zoo2_1     ... 
-Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8:  4834 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
-Total reclaimed space: 0B
-9 0 3
+8 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -578,9 +502,9 @@ Creating kafkadocker_producer_1
   broker 1 at 172.21.0.5:9092
  1 topics:
   topic "test-topic" with 3 partitions:
-    partition 0, leader 3, replicas: 3,2,1, isrs: 3,2,1
-    partition 1, leader 1, replicas: 1,3,2, isrs: 1,3,2
-    partition 2, leader 2, replicas: 2,1,3, isrs: 2,1,3
+    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
@@ -606,10 +530,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 10180 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 16547 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-10 0 3
+9 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -630,66 +554,7 @@ Creating kafkadocker_kafka3_1
 Creating kafkadocker_monitor1_1
 [1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
 Creating kafkadocker_producer_1
-[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
- 3 brokers:
-  broker 2 at 172.21.0.6:9092
-  broker 3 at 172.21.0.7:9092
-  broker 1 at 172.21.0.5:9092
- 1 topics:
-  topic "test-topic" with 3 partitions:
-    partition 0, leader 1, replicas: 1,2,3, isrs: 1,2,3
-    partition 1, leader 2, replicas: 2,3,1, isrs: 2,3,1
-    partition 2, leader 3, replicas: 3,1,2, isrs: 3,1,2
-SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
-log4j:WARN Please initialize the log4j system properly.
-log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Stopping kafkadocker_producer_1 ... 
-Stopping kafkadocker_monitor1_1 ... 
-Stopping kafkadocker_kafka3_1   ... 
-Stopping kafkadocker_kafka2_1   ... 
-Stopping kafkadocker_kafka1_1   ... 
-Stopping kafkadocker_zoo4_1     ... 
-Stopping kafkadocker_zoo3_1     ... 
-Stopping kafkadocker_zoo2_1     ... 
-Stopping kafkadocker_zoo1_1     ... 
-[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
-Removing kafkadocker_monitor1_1 ... 
-Removing kafkadocker_kafka3_1   ... 
-Removing kafkadocker_kafka2_1   ... 
-Removing kafkadocker_kafka1_1   ... 
-Removing kafkadocker_zoo4_1     ... 
-Removing kafkadocker_zoo3_1     ... 
-Removing kafkadocker_zoo2_1     ... 
-Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 15611 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
-Total reclaimed space: 0B
-11 0 3
-Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
-Creating network "kafkadocker_kafka-net" with driver "bridge"
-Creating kafkadocker_zoo1_1 ... 
-Creating kafkadocker_zoo1_1
-[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
-Creating kafkadocker_zoo2_1
-[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
-Creating kafkadocker_zoo3_1
-[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
-Creating kafkadocker_zoo4_1
-[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
-Creating kafkadocker_kafka1_1
-[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
-Creating kafkadocker_kafka2_1
-[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
-Creating kafkadocker_kafka3_1
-[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
-Creating kafkadocker_monitor1_1
-[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
-Creating kafkadocker_producer_1
-[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 3: 172.21.0.7:9092/3):
  3 brokers:
   broker 2 at 172.21.0.6:9092
   broker 3 at 172.21.0.7:9092
@@ -724,10 +589,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 20917 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 21974 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-12 0 3
+10 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -783,10 +648,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 26337 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 27310 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-13 0 3
+11 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -842,10 +707,69 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 31665 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 32683 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-14 0 3
+12 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 1, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 2, leader 2, replicas: 2,3,1, isrs: 2,3,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 38101 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+13 -1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -901,10 +825,482 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 37023 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 43425 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-15 0 3
+14 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 1, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 2, leader 2, replicas: 2,3,1, isrs: 2,3,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 48723 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+15 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8:  5376 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+16 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 1, leader 2, replicas: 2,1,3, isrs: 2,1,3
+    partition 2, leader 3, replicas: 3,2,1, isrs: 3,2,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 10644 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+17 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,2,1, isrs: 3,2,1
+    partition 1, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 2, leader 2, replicas: 2,1,3, isrs: 2,1,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 16125 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+18 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 1, leader 2, replicas: 2,1,3, isrs: 2,1,3
+    partition 2, leader 3, replicas: 3,2,1, isrs: 3,2,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 21918 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+19 -1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 1, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 2, leader 3, replicas: 3,1,2, isrs: 3,1,2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 27201 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+0 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 3: 172.21.0.7:9092/3):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,2,1, isrs: 3,2,1
+    partition 1, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 2, leader 2, replicas: 2,1,3, isrs: 2,1,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 32589 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+1 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 1, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 2, leader 3, replicas: 3,1,2, isrs: 3,1,2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 37903 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+2 1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -960,10 +1356,246 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 42635 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 43255 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-16 0 3
+3 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 1, leader 2, replicas: 2,1,3, isrs: 2,1,3
+    partition 2, leader 3, replicas: 3,2,1, isrs: 3,2,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 48620 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+4 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 1, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 2, leader 2, replicas: 2,3,1, isrs: 2,3,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8:  5250 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+5 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 10498 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+6 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 15844 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+7 1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -1019,10 +1651,305 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 48004 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 21149 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-17 0 3
+8 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 1, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 2, leader 2, replicas: 2,3,1, isrs: 2,3,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 26457 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+9 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 3: 172.21.0.7:9092/3):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 31837 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+10 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 2, replicas: 2,1,3, isrs: 2,1,3
+    partition 1, leader 3, replicas: 3,2,1, isrs: 3,2,1
+    partition 2, leader 1, replicas: 1,3,2, isrs: 1,3,2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 37162 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+11 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,2,1, isrs: 3,2,1
+    partition 1, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 2, leader 2, replicas: 2,1,3, isrs: 2,1,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 42539 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+12 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 1, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 2, leader 3, replicas: 3,1,2, isrs: 3,1,2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 47961 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+13 1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -1078,10 +2005,128 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8:  4696 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8:  4603 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-18 0 3
+14 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8:  9941 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+15 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 2, replicas: 2,1,3, isrs: 2,1,3
+    partition 1, leader 3, replicas: 3,2,1, isrs: 3,2,1
+    partition 2, leader 1, replicas: 1,3,2, isrs: 1,3,2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 15306 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+16 1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -1137,10 +2182,10 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8:  9994 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 20701 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
-19 0 3
+17 1 0
 Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
 Creating network "kafkadocker_kafka-net" with driver "bridge"
 Creating kafkadocker_zoo1_1 ... 
@@ -1168,9 +2213,9 @@ Creating kafkadocker_producer_1
   broker 1 at 172.21.0.5:9092
  1 topics:
   topic "test-topic" with 3 partitions:
-    partition 0, leader 2, replicas: 2,3,1, isrs: 2,3,1
-    partition 1, leader 3, replicas: 3,1,2, isrs: 3,1,2
-    partition 2, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 0, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 1, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 2, leader 2, replicas: 2,3,1, isrs: 2,3,1
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
@@ -1196,6 +2241,217 @@ Removing kafkadocker_zoo4_1     ...
 Removing kafkadocker_zoo3_1     ... 
 Removing kafkadocker_zoo2_1     ... 
 Removing kafkadocker_zoo1_1     ... 
-[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving network kafkadocker_kafka-net
-./lossPackets.sh: line 8: 15339 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 26055 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
 Total reclaimed space: 0B
+18 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 1, leader 2, replicas: 2,3,1, isrs: 2,3,1
+    partition 2, leader 3, replicas: 3,1,2, isrs: 3,1,2
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 31330 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+19 1 0
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 1, leader 2, replicas: 2,1,3, isrs: 2,1,3
+    partition 2, leader 3, replicas: 3,2,1, isrs: 3,2,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 36631 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+0 -1 3
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 2: 172.21.0.6:9092/2):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,1,2, isrs: 3,1,2
+    partition 1, leader 1, replicas: 1,2,3, isrs: 1,2,3
+    partition 2, leader 2, replicas: 2,3,1, isrs: 2,3,1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.kafka.clients.producer.ProducerConfig).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Stopping kafkadocker_producer_1 ... 
+Stopping kafkadocker_monitor1_1 ... 
+Stopping kafkadocker_kafka3_1   ... 
+Stopping kafkadocker_kafka2_1   ... 
+Stopping kafkadocker_kafka1_1   ... 
+Stopping kafkadocker_zoo4_1     ... 
+Stopping kafkadocker_zoo3_1     ... 
+Stopping kafkadocker_zoo2_1     ... 
+Stopping kafkadocker_zoo1_1     ... 
+[9A[2KStopping kafkadocker_producer_1 ... [32mdone[0m[9B[8A[2KStopping kafkadocker_monitor1_1 ... [32mdone[0m[8B[7A[2KStopping kafkadocker_kafka3_1   ... [32mdone[0m[7B[6A[2KStopping kafkadocker_kafka2_1   ... [32mdone[0m[6B[5A[2KStopping kafkadocker_kafka1_1   ... [32mdone[0m[5B[4A[2KStopping kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KStopping kafkadocker_zoo3_1     ... [32mdone[0m[3B[2A[2KStopping kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KStopping kafkadocker_zoo1_1     ... [32mdone[0m[1BRemoving kafkadocker_producer_1 ... 
+Removing kafkadocker_monitor1_1 ... 
+Removing kafkadocker_kafka3_1   ... 
+Removing kafkadocker_kafka2_1   ... 
+Removing kafkadocker_kafka1_1   ... 
+Removing kafkadocker_zoo4_1     ... 
+Removing kafkadocker_zoo3_1     ... 
+Removing kafkadocker_zoo2_1     ... 
+Removing kafkadocker_zoo1_1     ... 
+[8A[2KRemoving kafkadocker_monitor1_1 ... [32mdone[0m[8B[9A[2KRemoving kafkadocker_producer_1 ... [32mdone[0m[9B[5A[2KRemoving kafkadocker_kafka1_1   ... [32mdone[0m[5B[6A[2KRemoving kafkadocker_kafka2_1   ... [32mdone[0m[6B[7A[2KRemoving kafkadocker_kafka3_1   ... [32mdone[0m[7B[2A[2KRemoving kafkadocker_zoo2_1     ... [32mdone[0m[2B[1A[2KRemoving kafkadocker_zoo1_1     ... [32mdone[0m[1B[4A[2KRemoving kafkadocker_zoo4_1     ... [32mdone[0m[4B[3A[2KRemoving kafkadocker_zoo3_1     ... [32mdone[0m[3BRemoving network kafkadocker_kafka-net
+./lossPackets.sh: line 8: 41865 Killed                  pumba netem -d 36h loss -p $percent $( docker ps | grep -e kafka\[0-9] -e kafka-producer | awk '{ print $NF }' )
+Total reclaimed space: 0B
+1 -1 3
+Some services (kafka1, kafka2, kafka3, monitor1, producer, zoo1, zoo2, zoo3, zoo4) use the 'deploy' key, which will be ignored. Compose does not support 'deploy' configuration - use `docker stack deploy` to deploy to a swarm.
+Creating network "kafkadocker_kafka-net" with driver "bridge"
+Creating kafkadocker_zoo1_1 ... 
+Creating kafkadocker_zoo1_1
+[1A[2KCreating kafkadocker_zoo1_1 ... [32mdone[0m[1BCreating kafkadocker_zoo2_1 ... 
+Creating kafkadocker_zoo2_1
+[1A[2KCreating kafkadocker_zoo2_1 ... [32mdone[0m[1BCreating kafkadocker_zoo3_1 ... 
+Creating kafkadocker_zoo3_1
+[1A[2KCreating kafkadocker_zoo3_1 ... [32mdone[0m[1BCreating kafkadocker_zoo4_1 ... 
+Creating kafkadocker_zoo4_1
+[1A[2KCreating kafkadocker_zoo4_1 ... [32mdone[0m[1BCreating kafkadocker_kafka1_1 ... 
+Creating kafkadocker_kafka1_1
+[1A[2KCreating kafkadocker_kafka1_1 ... [32mdone[0m[1BCreating kafkadocker_kafka2_1 ... 
+Creating kafkadocker_kafka2_1
+[1A[2KCreating kafkadocker_kafka2_1 ... [32mdone[0m[1BCreating kafkadocker_kafka3_1 ... 
+Creating kafkadocker_kafka3_1
+[1A[2KCreating kafkadocker_kafka3_1 ... [32mdone[0m[1BCreating kafkadocker_monitor1_1 ... 
+Creating kafkadocker_monitor1_1
+[1A[2KCreating kafkadocker_monitor1_1 ... [32mdone[0m[1BCreating kafkadocker_producer_1 ... 
+Creating kafkadocker_producer_1
+[1A[2KCreating kafkadocker_producer_1 ... [32mdone[0m[1BMetadata for test-topic (from broker 1: 172.21.0.5:9092/1):
+ 3 brokers:
+  broker 2 at 172.21.0.6:9092
+  broker 3 at 172.21.0.7:9092
+  broker 1 at 172.21.0.5:9092
+ 1 topics:
+  topic "test-topic" with 3 partitions:
+    partition 0, leader 3, replicas: 3,2,1, isrs: 3,2,1
+    partition 1, leader 1, replicas: 1,3,2, isrs: 1,3,2
+    partition 2, leader 2, replicas: 2,1,3, isrs: 2,1,3
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
