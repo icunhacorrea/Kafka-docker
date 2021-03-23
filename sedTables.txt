@@ -1,0 +1,10 @@
+**** Replace dot with comma (Aplication time)
+
+cat log-6-0-* | grep Aplication | sed 's/\./,/' | cut -d ' ' -f 3
+
+**** Replace dot with comma (Vazão)
+
+cat log-6-0-* | grep "producer-topic-metrics:record-send-rate" | sed 's/\./,/' | cut -d ' ' -f 3
+
+
+
