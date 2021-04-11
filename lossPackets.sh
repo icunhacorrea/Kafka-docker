@@ -3,9 +3,9 @@
 docker-compose down -v
 docker system prune -f
 
-for percent in 0 3 6 9; do
+for percent in 6 9; do
 	for ack in -2; do
-		for i in {0..5}; do
+		for i in {0..3}; do
 			echo $i $ack $percent
 
 			docker-compose up -d
