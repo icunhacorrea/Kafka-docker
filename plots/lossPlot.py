@@ -8,6 +8,7 @@ df['ack'] = df['ack'].astype(str)
 #df.drop(df.index[df['ack'] == '0'], inplace=True)
 
 plt.tight_layout()
+plt.figure(figsize=(20,5))
 
 df['ack'] = df['ack'].replace({'-2': 'Reliable Ack'})
 df['ack'] = df['ack'].replace({'-1': 'Replicas Confirm.'})
@@ -18,7 +19,7 @@ print(df)
 
 sns.set(style = 'white')
 
-g = sns.barplot(x='chance', y='vazao', hue='ack', orient='v', data=df,
+g = sns.barplot(x='vazao', y='chance', hue='ack', orient='h', data=df,
 				errcolor='black', capsize=0.04, errwidth=2, saturation=8, ci="sd",
 				edgecolor=".08", linewidth=0.02)
 g.legend_.set_title(None)
