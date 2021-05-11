@@ -1,6 +1,7 @@
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 
 df = pd.read_csv('data/loss.csv', decimal=',')
 df['ack'] = df['ack'].astype(str)
@@ -19,14 +20,18 @@ print(df)
 
 sns.set(style = 'ticks')
 
-g = sns.barplot(x='vazao', y='chance', hue='ack', orient='h', data=df,
+g = sns.barplot(x='tempo', y='chance', hue='ack', orient='h', data=df,
 				errcolor='black', capsize=0.04, errwidth=2, saturation=8, ci="sd",
-				edgecolor=".08", linewidth=0.02)
+				edgecolor=".08", linewidth=0.04)
 g.legend_.set_title(None)
+g.xaxis.set_major_locator(ticker.MultipleLocator(5000))
+g.xaxis.set_major_formatter(ticker.ScalarFormatter())
+plt.gcf().set_size_inches(15.7, 5.27)
 
-plt.xlabel('Probabilidade de perder pacotes (%)')
-plt.ylabel('Vazão (mensagens/seg)')
+plt.ylabel('Probabilidade de perder pacotes (%)')
+plt.xlabel('Vazão (mensagens/seg)')
+#plt.xlabel('Tempo de execução (seg)')
 
-plt.savefig('./pdfs/loss-vazao-FF.pdf', format='eps', dpi=300)
-#plt.savefig('./pdfs/loss-vazao.pdf')
+#plt.savefig('./pdfs/loss-tempo-FF.pdf', bbox_inches='tight', dpi=600)
+plt.savefig('./pdfs/loss-vazao.pdf')
 plt.clf()
