@@ -1,0 +1,4970 @@
+Introduzindo falha... delay: 200; ack: -2; exec: 27
+The watcher socker server is running...
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.002424 ***
+*** Tamanho da lista: 20000 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 1212 ***
+*** Quantidade de Notificações: 1212 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 2048
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.004022 ***
+*** Tamanho da lista: 30000 ***
+*** Size Received: 15 ***
+*** Quantidade de Read: 2011 ***
+*** Quantidade de Notificações: 2026 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 2048
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.007748 ***
+*** Tamanho da lista: 45000 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 3874 ***
+*** Quantidade de Notificações: 3875 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 4096
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.010132 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 5066 ***
+*** Quantidade de Notificações: 5067 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 6144
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.012968 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 6484 ***
+*** Quantidade de Notificações: 6484 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 8192
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.015878 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 6 ***
+*** Quantidade de Read: 7939 ***
+*** Quantidade de Notificações: 7945 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 8192
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.01882 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 9410 ***
+*** Quantidade de Notificações: 9410 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 10240
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.02175 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 10875 ***
+*** Quantidade de Notificações: 10875 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 12288
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.023966 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 11983 ***
+*** Quantidade de Notificações: 11987 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 12288
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.027324 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 13662 ***
+*** Quantidade de Notificações: 13662 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 14336
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.030108 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 15054 ***
+*** Quantidade de Notificações: 15054 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 16384
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.03217 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 16085 ***
+*** Quantidade de Notificações: 16087 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 16384
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.035592 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 17796 ***
+*** Quantidade de Notificações: 17796 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 18432
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.038138 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 19069 ***
+*** Quantidade de Notificações: 19069 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 20480
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.040156 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 20078 ***
+*** Quantidade de Notificações: 20081 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 20480
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.043396 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 21698 ***
+*** Quantidade de Notificações: 21698 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 22528
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.045946 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 22973 ***
+*** Quantidade de Notificações: 22973 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 24576
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.048204 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 24102 ***
+*** Quantidade de Notificações: 24103 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 24576
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.050564 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 25282 ***
+*** Quantidade de Notificações: 25282 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 26624
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.0529 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 26450 ***
+*** Quantidade de Notificações: 26453 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 26624
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.055374 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 27687 ***
+*** Quantidade de Notificações: 27687 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 28672
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.05707 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 28535 ***
+*** Quantidade de Notificações: 28539 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 28672
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.060082 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 30041 ***
+*** Quantidade de Notificações: 30041 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 30720
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.0611 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 30550 ***
+*** Quantidade de Notificações: 30554 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 30720
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.06517 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 32585 ***
+*** Quantidade de Notificações: 32585 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 32768
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.067862 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 33931 ***
+*** Quantidade de Notificações: 33931 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 34816
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.069206 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 34603 ***
+*** Quantidade de Notificações: 34605 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 34816
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.072904 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 36452 ***
+*** Quantidade de Notificações: 36453 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 36864
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.075506 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 37753 ***
+*** Quantidade de Notificações: 37753 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 38912
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.077628 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 38814 ***
+*** Quantidade de Notificações: 38816 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 38912
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.080748 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 40374 ***
+*** Quantidade de Notificações: 40374 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 40960
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.083342 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 41671 ***
+*** Quantidade de Notificações: 41671 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 43008
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.085954 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 42977 ***
+*** Quantidade de Notificações: 42978 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 45056
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.088532 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 44266 ***
+*** Quantidade de Notificações: 44267 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 45056
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.08957 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 44785 ***
+*** Quantidade de Notificações: 44787 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 45056
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.094396 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 47198 ***
+*** Quantidade de Notificações: 47199 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 49152
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.09738 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 48690 ***
+*** Quantidade de Notificações: 48690 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 49152
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.10079 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 50395 ***
+*** Quantidade de Notificações: 50395 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 51200
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.101666 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 50833 ***
+*** Quantidade de Notificações: 50835 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 51200
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.105752 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 52876 ***
+*** Quantidade de Notificações: 52878 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 53248
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.109486 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 54743 ***
+*** Quantidade de Notificações: 54743 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 55296
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.11228 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 56140 ***
+*** Quantidade de Notificações: 56141 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 57344
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.114356 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 57178 ***
+*** Quantidade de Notificações: 57179 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 59392
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.11787 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 58935 ***
+*** Quantidade de Notificações: 58937 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 59392
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.121694 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 60847 ***
+*** Quantidade de Notificações: 60847 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 61440
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.124358 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 62179 ***
+*** Quantidade de Notificações: 62179 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 63488
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.125992 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 62996 ***
+*** Quantidade de Notificações: 62999 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 63488
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.130108 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 65054 ***
+*** Quantidade de Notificações: 65056 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 65536
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.132354 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 66177 ***
+*** Quantidade de Notificações: 66178 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 67584
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.134242 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 67121 ***
+*** Quantidade de Notificações: 67124 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 67584
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.13834 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 69170 ***
+*** Quantidade de Notificações: 69172 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 69632
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.141934 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 70967 ***
+*** Quantidade de Notificações: 70967 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 71680
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.143514 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 71757 ***
+*** Quantidade de Notificações: 71758 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 73728
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.146512 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 73256 ***
+*** Quantidade de Notificações: 73257 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 75776
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.150012 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 75006 ***
+*** Quantidade de Notificações: 75006 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 75776
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.150332 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 75166 ***
+*** Quantidade de Notificações: 75168 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 75776
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.15437 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 77185 ***
+*** Quantidade de Notificações: 77187 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 77824
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.157434 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 78717 ***
+*** Quantidade de Notificações: 78717 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 79872
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.158376 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 79188 ***
+*** Quantidade de Notificações: 79190 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 79872
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.16218 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 81090 ***
+*** Quantidade de Notificações: 81090 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 81920
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.164688 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 82344 ***
+*** Quantidade de Notificações: 82344 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 83968
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.166422 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 83211 ***
+*** Quantidade de Notificações: 83213 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 83968
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.166702 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 83351 ***
+*** Quantidade de Notificações: 83352 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 86016
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.170166 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 85083 ***
+*** Quantidade de Notificações: 85085 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 86016
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.170166 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 85083 ***
+*** Quantidade de Notificações: 85087 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 86016
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.174374 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 87187 ***
+*** Quantidade de Notificações: 87189 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 88064
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.17821 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 89105 ***
+*** Quantidade de Notificações: 89105 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 90112
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.178508 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 89254 ***
+*** Quantidade de Notificações: 89256 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 90112
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.180384 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 90192 ***
+*** Quantidade de Notificações: 90193 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 92160
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.182722 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 91361 ***
+*** Quantidade de Notificações: 91363 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 92160
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.186452 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 93226 ***
+*** Quantidade de Notificações: 93226 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 94208
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.186798 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 93399 ***
+*** Quantidade de Notificações: 93401 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 94208
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.190798 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 95399 ***
+*** Quantidade de Notificações: 95399 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 96256
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.190826 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 95413 ***
+*** Quantidade de Notificações: 95416 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 96256
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.194908 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 97454 ***
+*** Quantidade de Notificações: 97456 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 98304
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.194914 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 97457 ***
+*** Quantidade de Notificações: 97459 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 98304
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.199 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 99500 ***
+*** Quantidade de Notificações: 99502 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 100352
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.200416 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 100208 ***
+*** Quantidade de Notificações: 100209 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 102400
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.203014 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 101507 ***
+*** Quantidade de Notificações: 101509 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 102400
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.203024 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 101512 ***
+*** Quantidade de Notificações: 101514 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 102400
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.207118 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 103559 ***
+*** Quantidade de Notificações: 103561 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 104448
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.210534 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 105267 ***
+*** Quantidade de Notificações: 105268 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 106496
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.211236 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 105618 ***
+*** Quantidade de Notificações: 105621 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 106496
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.215056 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 107528 ***
+*** Quantidade de Notificações: 107529 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 108544
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.215468 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 107734 ***
+*** Quantidade de Notificações: 107737 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 108544
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.219072 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 109536 ***
+*** Quantidade de Notificações: 109537 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 110592
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.219514 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 109757 ***
+*** Quantidade de Notificações: 109760 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 110592
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.223666 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 111833 ***
+*** Quantidade de Notificações: 111835 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 112640
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.227352 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 113676 ***
+*** Quantidade de Notificações: 113676 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 114688
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.227642 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 113821 ***
+*** Quantidade de Notificações: 113824 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 114688
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.23178 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 115890 ***
+*** Quantidade de Notificações: 115892 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 116736
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.231782 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 115891 ***
+*** Quantidade de Notificações: 115895 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 116736
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.2361 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 118050 ***
+*** Quantidade de Notificações: 118052 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 118784
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.239484 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 119742 ***
+*** Quantidade de Notificações: 119742 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 120832
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.240208 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 120104 ***
+*** Quantidade de Notificações: 120106 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 120832
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.244268 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 122134 ***
+*** Quantidade de Notificações: 122134 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 122880
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.245818 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 122909 ***
+*** Quantidade de Notificações: 122910 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 124928
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.248522 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 124261 ***
+*** Quantidade de Notificações: 124263 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 124928
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.248526 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 124263 ***
+*** Quantidade de Notificações: 124265 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 124928
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.252428 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 126214 ***
+*** Quantidade de Notificações: 126217 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 126976
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.255344 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 127672 ***
+*** Quantidade de Notificações: 127672 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 129024
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.25642 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 128210 ***
+*** Quantidade de Notificações: 128212 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 129024
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.257154 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 128577 ***
+*** Quantidade de Notificações: 128578 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 131072
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.260732 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 130366 ***
+*** Quantidade de Notificações: 130368 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 131072
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.264362 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 132181 ***
+*** Quantidade de Notificações: 132181 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 133120
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.264718 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 132359 ***
+*** Quantidade de Notificações: 132362 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 133120
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.268674 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 134337 ***
+*** Quantidade de Notificações: 134339 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 135168
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.268676 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 134338 ***
+*** Quantidade de Notificações: 134341 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 135168
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.272858 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 136429 ***
+*** Quantidade de Notificações: 136431 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 137216
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.276888 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 138444 ***
+*** Quantidade de Notificações: 138444 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 139264
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.279606 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 139803 ***
+*** Quantidade de Notificações: 139803 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 141312
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.281056 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 140528 ***
+*** Quantidade de Notificações: 140531 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 141312
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.284506 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 142253 ***
+*** Quantidade de Notificações: 142253 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 143360
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.286514 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 143257 ***
+*** Quantidade de Notificações: 143258 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 145408
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.289384 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 144692 ***
+*** Quantidade de Notificações: 144692 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 145408
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.289442 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 144721 ***
+*** Quantidade de Notificações: 144723 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 145408
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.293416 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 146708 ***
+*** Quantidade de Notificações: 146710 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 147456
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.293466 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 12 ***
+*** Quantidade de Read: 146733 ***
+*** Quantidade de Notificações: 146745 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 147456
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.297716 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 148858 ***
+*** Quantidade de Notificações: 148860 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 149504
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.301088 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 150544 ***
+*** Quantidade de Notificações: 150544 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 151552
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.302136 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 151068 ***
+*** Quantidade de Notificações: 151070 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 151552
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.305494 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 152747 ***
+*** Quantidade de Notificações: 152748 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 153600
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.306324 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 153162 ***
+*** Quantidade de Notificações: 153164 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 153600
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.310226 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 155113 ***
+*** Quantidade de Notificações: 155113 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 155648
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.310384 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 155192 ***
+*** Quantidade de Notificações: 155194 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 155648
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.314374 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 157187 ***
+*** Quantidade de Notificações: 157189 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 157696
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.317778 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 158889 ***
+*** Quantidade de Notificações: 158889 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 159744
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.318238 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 159119 ***
+*** Quantidade de Notificações: 159121 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 159744
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.3223 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 161150 ***
+*** Quantidade de Notificações: 161150 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 161792
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.324586 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 162293 ***
+*** Quantidade de Notificações: 162293 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 163840
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.326598 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 163299 ***
+*** Quantidade de Notificações: 163301 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 163840
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.326602 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 5 ***
+*** Quantidade de Read: 163301 ***
+*** Quantidade de Notificações: 163306 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 163840
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.330848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 165424 ***
+*** Quantidade de Notificações: 165426 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 165888
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.333492 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 166746 ***
+*** Quantidade de Notificações: 166746 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 167936
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.334796 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 167398 ***
+*** Quantidade de Notificações: 167401 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 167936
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.336008 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 168004 ***
+*** Quantidade de Notificações: 168005 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 169984
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.33887 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 169435 ***
+*** Quantidade de Notificações: 169438 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 169984
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.342358 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 171179 ***
+*** Quantidade de Notificações: 171179 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 172032
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.342858 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 171429 ***
+*** Quantidade de Notificações: 171432 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 172032
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.345718 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 172859 ***
+*** Quantidade de Notificações: 172860 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 174080
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.348306 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 174153 ***
+*** Quantidade de Notificações: 174154 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 176128
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.350886 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 175443 ***
+*** Quantidade de Notificações: 175445 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 176128
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.350886 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 175443 ***
+*** Quantidade de Notificações: 175446 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 176128
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.355076 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 177538 ***
+*** Quantidade de Notificações: 177540 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 178176
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.358026 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 179013 ***
+*** Quantidade de Notificações: 179014 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 180224
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.359272 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 179636 ***
+*** Quantidade de Notificações: 179638 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 180224
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.362894 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 181447 ***
+*** Quantidade de Notificações: 181447 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 182272
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.363198 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 181599 ***
+*** Quantidade de Notificações: 181601 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 182272
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.367396 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 183698 ***
+*** Quantidade de Notificações: 183699 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 184320
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.369774 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 184887 ***
+*** Quantidade de Notificações: 184887 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 186368
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.371684 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 185842 ***
+*** Quantidade de Notificações: 185844 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 186368
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.372012 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 186006 ***
+*** Quantidade de Notificações: 186007 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 188416
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.375698 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 187849 ***
+*** Quantidade de Notificações: 187851 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 188416
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.379302 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 189651 ***
+*** Quantidade de Notificações: 189651 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 190464
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.37975 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 189875 ***
+*** Quantidade de Notificações: 189877 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 190464
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.383812 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 191906 ***
+*** Quantidade de Notificações: 191907 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 192512
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.384 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 192000 ***
+*** Quantidade de Notificações: 192002 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 192512
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.387168 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 193584 ***
+*** Quantidade de Notificações: 193585 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 194560
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.390782 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 195391 ***
+*** Quantidade de Notificações: 195392 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 196608
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.392092 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 196046 ***
+*** Quantidade de Notificações: 196048 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 196608
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.39278 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 196390 ***
+*** Quantidade de Notificações: 196391 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 198656
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.396328 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 198164 ***
+*** Quantidade de Notificações: 198166 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 198656
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.400362 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 200181 ***
+*** Quantidade de Notificações: 200183 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 200704
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.400366 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 200183 ***
+*** Quantidade de Notificações: 200186 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 200704
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.404004 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 202002 ***
+*** Quantidade de Notificações: 202003 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 202752
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.408298 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 204149 ***
+*** Quantidade de Notificações: 204149 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 204800
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.410858 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 205429 ***
+*** Quantidade de Notificações: 205429 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 206848
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.412414 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 206207 ***
+*** Quantidade de Notificações: 206209 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 206848
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.4161 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 208050 ***
+*** Quantidade de Notificações: 208050 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 208896
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.418652 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 209326 ***
+*** Quantidade de Notificações: 209326 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 210944
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.42077 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 210385 ***
+*** Quantidade de Notificações: 210387 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 210944
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.420774 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 210387 ***
+*** Quantidade de Notificações: 210389 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 210944
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.42481 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 212405 ***
+*** Quantidade de Notificações: 212408 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 212992
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.42889 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 214445 ***
+*** Quantidade de Notificações: 214448 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 215040
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.428892 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 214446 ***
+*** Quantidade de Notificações: 214450 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 215040
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.432768 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 216384 ***
+*** Quantidade de Notificações: 216386 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 217088
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.436286 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 218143 ***
+*** Quantidade de Notificações: 218143 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 219136
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.4369 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 218450 ***
+*** Quantidade de Notificações: 218452 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 219136
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.441004 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 220502 ***
+*** Quantidade de Notificações: 220504 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 221184
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.443864 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 221932 ***
+*** Quantidade de Notificações: 221932 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 223232
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.445226 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 222613 ***
+*** Quantidade de Notificações: 222615 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 223232
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.448982 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 224491 ***
+*** Quantidade de Notificações: 224491 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 225280
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.449638 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 224819 ***
+*** Quantidade de Notificações: 224820 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 227328
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.453322 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 226661 ***
+*** Quantidade de Notificações: 226663 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 227328
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.453322 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 226661 ***
+*** Quantidade de Notificações: 226664 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 227328
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.4576 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 228800 ***
+*** Quantidade de Notificações: 228802 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 229376
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.461766 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 230883 ***
+*** Quantidade de Notificações: 230885 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 231424
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.461766 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 230883 ***
+*** Quantidade de Notificações: 230886 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 231424
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.465878 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 232939 ***
+*** Quantidade de Notificações: 232941 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 233472
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.46984 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 234920 ***
+*** Quantidade de Notificações: 234920 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 235520
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.469994 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 234997 ***
+*** Quantidade de Notificações: 234999 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 235520
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.474142 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 237071 ***
+*** Quantidade de Notificações: 237073 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 237568
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.477716 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 238858 ***
+*** Quantidade de Notificações: 238858 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 239616
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.479914 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 239957 ***
+*** Quantidade de Notificações: 239958 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.48221 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 241105 ***
+*** Quantidade de Notificações: 241107 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.48221 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 241105 ***
+*** Quantidade de Notificações: 241108 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.482212 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 241106 ***
+*** Quantidade de Notificações: 241110 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.482214 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 241107 ***
+*** Quantidade de Notificações: 241111 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.482214 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 5 ***
+*** Quantidade de Read: 241107 ***
+*** Quantidade de Notificações: 241112 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.482216 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 5 ***
+*** Quantidade de Read: 241108 ***
+*** Quantidade de Notificações: 241113 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.482218 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 5 ***
+*** Quantidade de Read: 241109 ***
+*** Quantidade de Notificações: 241114 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.482218 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 6 ***
+*** Quantidade de Read: 241109 ***
+*** Quantidade de Notificações: 241115 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.48222 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 6 ***
+*** Quantidade de Read: 241110 ***
+*** Quantidade de Notificações: 241116 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 241664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.48332 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 241660 ***
+*** Quantidade de Notificações: 241662 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 243712
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.48576 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 242880 ***
+*** Quantidade de Notificações: 242882 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 243712
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.487922 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 243961 ***
+*** Quantidade de Notificações: 243962 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 245760
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.489676 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 244838 ***
+*** Quantidade de Notificações: 244840 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 245760
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.492654 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 246327 ***
+*** Quantidade de Notificações: 246327 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 247808
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.495034 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 247517 ***
+*** Quantidade de Notificações: 247517 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 249856
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.497612 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 248806 ***
+*** Quantidade de Notificações: 248806 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 249856
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.500186 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 250093 ***
+*** Quantidade de Notificações: 250093 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 251904
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.502856 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 251428 ***
+*** Quantidade de Notificações: 251428 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 253952
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.505416 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 252708 ***
+*** Quantidade de Notificações: 252708 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 253952
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.505638 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 13 ***
+*** Quantidade de Read: 252819 ***
+*** Quantidade de Notificações: 252832 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 253952
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.50953 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 254765 ***
+*** Quantidade de Notificações: 254767 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 256000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.51298 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 256490 ***
+*** Quantidade de Notificações: 256490 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 258048
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.513614 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 256807 ***
+*** Quantidade de Notificações: 256809 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 258048
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.517708 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 258854 ***
+*** Quantidade de Notificações: 258856 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 260096
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.520538 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 260269 ***
+*** Quantidade de Notificações: 260270 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 262144
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.52195 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 260975 ***
+*** Quantidade de Notificações: 260977 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 262144
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.524978 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 262489 ***
+*** Quantidade de Notificações: 262490 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 264192
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.527394 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 263697 ***
+*** Quantidade de Notificações: 263698 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 266240
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.529922 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 264961 ***
+*** Quantidade de Notificações: 264963 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 266240
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.529924 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 264962 ***
+*** Quantidade de Notificações: 264964 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 266240
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.533946 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 266973 ***
+*** Quantidade de Notificações: 266975 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 268288
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.537456 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 268728 ***
+*** Quantidade de Notificações: 268729 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 270336
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.537918 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 268959 ***
+*** Quantidade de Notificações: 268961 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 270336
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.541914 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 270957 ***
+*** Quantidade de Notificações: 270959 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 272384
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.544876 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 272438 ***
+*** Quantidade de Notificações: 272438 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 274432
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.54598 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 272990 ***
+*** Quantidade de Notificações: 272992 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 274432
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.549656 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 274828 ***
+*** Quantidade de Notificações: 274828 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 276480
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.549846 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 274923 ***
+*** Quantidade de Notificações: 274925 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 276480
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.553934 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 276967 ***
+*** Quantidade de Notificações: 276969 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 278528
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.557214 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 278607 ***
+*** Quantidade de Notificações: 278607 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 280576
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.558368 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 279184 ***
+*** Quantidade de Notificações: 279186 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 280576
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.56232 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 281160 ***
+*** Quantidade de Notificações: 281160 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 282624
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.564778 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 282389 ***
+*** Quantidade de Notificações: 282389 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 284672
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.566642 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 283321 ***
+*** Quantidade de Notificações: 283323 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 284672
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.568948 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 284474 ***
+*** Quantidade de Notificações: 284475 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 286720
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.570826 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 285413 ***
+*** Quantidade de Notificações: 285415 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 286720
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.573504 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 286752 ***
+*** Quantidade de Notificações: 286753 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 288768
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.575108 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 287554 ***
+*** Quantidade de Notificações: 287556 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 288768
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.579162 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 289581 ***
+*** Quantidade de Notificações: 289583 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 290816
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.579164 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 289582 ***
+*** Quantidade de Notificações: 289584 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 290816
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.583102 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 291551 ***
+*** Quantidade de Notificações: 291553 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 292864
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.587084 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 293542 ***
+*** Quantidade de Notificações: 293544 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 294912
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.589972 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 294986 ***
+*** Quantidade de Notificações: 294986 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 296960
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.591228 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 295614 ***
+*** Quantidade de Notificações: 295616 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 296960
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.595118 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 297559 ***
+*** Quantidade de Notificações: 297559 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 299008
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.595262 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 297631 ***
+*** Quantidade de Notificações: 297633 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 299008
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.599622 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 299811 ***
+*** Quantidade de Notificações: 299813 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 301056
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.602076 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 301038 ***
+*** Quantidade de Notificações: 301039 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 303104
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.603708 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 301854 ***
+*** Quantidade de Notificações: 301856 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 303104
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.603712 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 301856 ***
+*** Quantidade de Notificações: 301858 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 303104
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.607776 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 303888 ***
+*** Quantidade de Notificações: 303890 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 305152
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.61149 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 305745 ***
+*** Quantidade de Notificações: 305745 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 307200
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.61177 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 305885 ***
+*** Quantidade de Notificações: 305887 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 307200
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.612268 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 306134 ***
+*** Quantidade de Notificações: 306135 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 309248
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.615932 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 307966 ***
+*** Quantidade de Notificações: 307968 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 309248
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.619998 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 309999 ***
+*** Quantidade de Notificações: 310001 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 311296
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.62294 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 311470 ***
+*** Quantidade de Notificações: 311470 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 313344
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.624042 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 312021 ***
+*** Quantidade de Notificações: 312023 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 313344
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.625688 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 312844 ***
+*** Quantidade de Notificações: 312845 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 315392
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.628408 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 314204 ***
+*** Quantidade de Notificações: 314206 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 315392
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.632388 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 316194 ***
+*** Quantidade de Notificações: 316196 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 317440
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.63239 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 316195 ***
+*** Quantidade de Notificações: 316197 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 317440
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.6364 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 318200 ***
+*** Quantidade de Notificações: 318202 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 319488
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.639584 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 319792 ***
+*** Quantidade de Notificações: 319793 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 321536
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.640576 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 320288 ***
+*** Quantidade de Notificações: 320290 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 321536
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.642884 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 321442 ***
+*** Quantidade de Notificações: 321443 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 323584
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.644734 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 322367 ***
+*** Quantidade de Notificações: 322369 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 323584
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.648774 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 324387 ***
+*** Quantidade de Notificações: 324389 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 325632
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.648776 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 324388 ***
+*** Quantidade de Notificações: 324390 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 325632
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.652866 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 326433 ***
+*** Quantidade de Notificações: 326435 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 327680
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.656624 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 328312 ***
+*** Quantidade de Notificações: 328313 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 329728
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.657 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 328500 ***
+*** Quantidade de Notificações: 328502 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 329728
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.660534 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 330267 ***
+*** Quantidade de Notificações: 330268 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 331776
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.664342 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 332171 ***
+*** Quantidade de Notificações: 332172 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 333824
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.665232 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 332616 ***
+*** Quantidade de Notificações: 332618 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 333824
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.667412 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 333706 ***
+*** Quantidade de Notificações: 333707 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 335872
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.669808 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 334904 ***
+*** Quantidade de Notificações: 334905 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 337920
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.67342 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 336710 ***
+*** Quantidade de Notificações: 336712 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 337920
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.673422 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 336711 ***
+*** Quantidade de Notificações: 336714 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 337920
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.677404 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 338702 ***
+*** Quantidade de Notificações: 338704 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 339968
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.681368 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 340684 ***
+*** Quantidade de Notificações: 340684 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 342016
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.681582 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 340791 ***
+*** Quantidade de Notificações: 340793 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 342016
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.685714 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 342857 ***
+*** Quantidade de Notificações: 342859 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 344064
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.68815 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 344075 ***
+*** Quantidade de Notificações: 344075 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 346112
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.689862 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 344931 ***
+*** Quantidade de Notificações: 344934 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 346112
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.692722 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 346361 ***
+*** Quantidade de Notificações: 346362 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 348160
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.69379 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 346895 ***
+*** Quantidade de Notificações: 346898 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 348160
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.69809 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 349045 ***
+*** Quantidade de Notificações: 349047 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 350208
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.698094 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 349047 ***
+*** Quantidade de Notificações: 349049 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 350208
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.702118 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 351059 ***
+*** Quantidade de Notificações: 351061 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 352256
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.7058 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 352900 ***
+*** Quantidade de Notificações: 352900 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 354304
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.706092 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 353046 ***
+*** Quantidade de Notificações: 353048 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 354304
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.709988 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 354994 ***
+*** Quantidade de Notificações: 354996 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 356352
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.712472 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 356236 ***
+*** Quantidade de Notificações: 356237 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 358400
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.71408 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 357040 ***
+*** Quantidade de Notificações: 357042 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 358400
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.714082 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 357041 ***
+*** Quantidade de Notificações: 357044 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 358400
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.718204 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 359102 ***
+*** Quantidade de Notificações: 359104 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 360448
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.722294 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 361147 ***
+*** Quantidade de Notificações: 361147 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 362496
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.722304 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 361152 ***
+*** Quantidade de Notificações: 361155 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 362496
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.726572 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 363286 ***
+*** Quantidade de Notificações: 363288 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 364544
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.729322 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 364661 ***
+*** Quantidade de Notificações: 364661 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 366592
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.730778 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 365389 ***
+*** Quantidade de Notificações: 365391 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 366592
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.733802 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 366901 ***
+*** Quantidade de Notificações: 366902 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 368640
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.734714 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 367357 ***
+*** Quantidade de Notificações: 367360 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 368640
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.738956 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 369478 ***
+*** Quantidade de Notificações: 369480 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 370688
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.738956 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 369478 ***
+*** Quantidade de Notificações: 369482 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 370688
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.742834 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 371417 ***
+*** Quantidade de Notificações: 371419 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 372736
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.746342 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 373171 ***
+*** Quantidade de Notificações: 373171 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 374784
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.747076 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 373538 ***
+*** Quantidade de Notificações: 373541 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 374784
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.747078 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 373539 ***
+*** Quantidade de Notificações: 373543 ***
+*** Quantidade de reenvios: 0 ***
+*** Inserções: 374784
+*** Total esperado: 500000
+Reenvio de 241320 ocorrido com sucesso!
+Reenvio de 241322 ocorrido com sucesso!
+Reenvio de 241325 ocorrido com sucesso!
+Reenvio de 241329 ocorrido com sucesso!
+Reenvio de 241333 ocorrido com sucesso!
+Reenvio de 241337 ocorrido com sucesso!
+Reenvio de 241339 ocorrido com sucesso!
+Reenvio de 241340 ocorrido com sucesso!
+Reenvio de 241341 ocorrido com sucesso!
+Reenvio de 241350 ocorrido com sucesso!
+Reenvio de 241352 ocorrido com sucesso!
+Reenvio de 241354 ocorrido com sucesso!
+Reenvio de 241358 ocorrido com sucesso!
+Reenvio de 241359 ocorrido com sucesso!
+Reenvio de 241360 ocorrido com sucesso!
+Reenvio de 241363 ocorrido com sucesso!
+Reenvio de 241365 ocorrido com sucesso!
+Reenvio de 241368 ocorrido com sucesso!
+Reenvio de 241372 ocorrido com sucesso!
+Reenvio de 241373 ocorrido com sucesso!
+Reenvio de 241375 ocorrido com sucesso!
+Reenvio de 241377 ocorrido com sucesso!
+Reenvio de 241386 ocorrido com sucesso!
+Reenvio de 241389 ocorrido com sucesso!
+Reenvio de 241397 ocorrido com sucesso!
+Reenvio de 241398 ocorrido com sucesso!
+Reenvio de 241400 ocorrido com sucesso!
+Reenvio de 241404 ocorrido com sucesso!
+Reenvio de 241410 ocorrido com sucesso!
+Reenvio de 241411 ocorrido com sucesso!
+Reenvio de 241412 ocorrido com sucesso!
+Reenvio de 241413 ocorrido com sucesso!
+Reenvio de 241415 ocorrido com sucesso!
+Reenvio de 241416 ocorrido com sucesso!
+Reenvio de 241419 ocorrido com sucesso!
+Reenvio de 241420 ocorrido com sucesso!
+Reenvio de 241426 ocorrido com sucesso!
+Reenvio de 241429 ocorrido com sucesso!
+Reenvio de 241430 ocorrido com sucesso!
+Reenvio de 241437 ocorrido com sucesso!
+Reenvio de 241447 ocorrido com sucesso!
+Reenvio de 241448 ocorrido com sucesso!
+Reenvio de 241451 ocorrido com sucesso!
+Reenvio de 241459 ocorrido com sucesso!
+Reenvio de 241462 ocorrido com sucesso!
+Reenvio de 241463 ocorrido com sucesso!
+Reenvio de 241465 ocorrido com sucesso!
+Reenvio de 241466 ocorrido com sucesso!
+Reenvio de 241467 ocorrido com sucesso!
+Reenvio de 241469 ocorrido com sucesso!
+Reenvio de 241473 ocorrido com sucesso!
+Reenvio de 241474 ocorrido com sucesso!
+Reenvio de 241477 ocorrido com sucesso!
+Reenvio de 241478 ocorrido com sucesso!
+Reenvio de 241483 ocorrido com sucesso!
+Reenvio de 241488 ocorrido com sucesso!
+Reenvio de 241490 ocorrido com sucesso!
+Reenvio de 241493 ocorrido com sucesso!
+Reenvio de 241494 ocorrido com sucesso!
+Reenvio de 241499 ocorrido com sucesso!
+Reenvio de 241501 ocorrido com sucesso!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.749714 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 635 ***
+*** Quantidade de Read: 374857 ***
+*** Quantidade de Notificações: 375492 ***
+*** Quantidade de reenvios: 61 ***
+*** Inserções: 375742
+*** Total esperado: 500000
+Reenvio de 241503 ocorrido com sucesso!
+Reenvio de 241513 ocorrido com sucesso!
+Reenvio de 241514 ocorrido com sucesso!
+Reenvio de 241516 ocorrido com sucesso!
+Reenvio de 241519 ocorrido com sucesso!
+Reenvio de 241520 ocorrido com sucesso!
+Reenvio de 241522 ocorrido com sucesso!
+Reenvio de 241524 ocorrido com sucesso!
+Reenvio de 241526 ocorrido com sucesso!
+Reenvio de 241530 ocorrido com sucesso!
+Reenvio de 241531 ocorrido com sucesso!
+Reenvio de 241533 ocorrido com sucesso!
+Reenvio de 241536 ocorrido com sucesso!
+Reenvio de 241537 ocorrido com sucesso!
+Reenvio de 241539 ocorrido com sucesso!
+Reenvio de 241540 ocorrido com sucesso!
+Reenvio de 241541 ocorrido com sucesso!
+Reenvio de 241545 ocorrido com sucesso!
+Reenvio de 241548 ocorrido com sucesso!
+Reenvio de 241549 ocorrido com sucesso!
+Reenvio de 241557 ocorrido com sucesso!
+Reenvio de 241562 ocorrido com sucesso!
+Reenvio de 241567 ocorrido com sucesso!
+Reenvio de 241569 ocorrido com sucesso!
+Reenvio de 241571 ocorrido com sucesso!
+Reenvio de 241572 ocorrido com sucesso!
+Reenvio de 241574 ocorrido com sucesso!
+Reenvio de 241575 ocorrido com sucesso!
+Reenvio de 241577 ocorrido com sucesso!
+Reenvio de 241578 ocorrido com sucesso!
+Reenvio de 241582 ocorrido com sucesso!
+Reenvio de 241585 ocorrido com sucesso!
+Reenvio de 241587 ocorrido com sucesso!
+Reenvio de 241590 ocorrido com sucesso!
+Reenvio de 241594 ocorrido com sucesso!
+Reenvio de 241595 ocorrido com sucesso!
+Reenvio de 241598 ocorrido com sucesso!
+Reenvio de 241601 ocorrido com sucesso!
+Reenvio de 241604 ocorrido com sucesso!
+Reenvio de 241606 ocorrido com sucesso!
+Reenvio de 241608 ocorrido com sucesso!
+Reenvio de 241609 ocorrido com sucesso!
+Reenvio de 241611 ocorrido com sucesso!
+Reenvio de 241612 ocorrido com sucesso!
+Reenvio de 241613 ocorrido com sucesso!
+Reenvio de 241614 ocorrido com sucesso!
+Reenvio de 241618 ocorrido com sucesso!
+Reenvio de 241621 ocorrido com sucesso!
+Reenvio de 241625 ocorrido com sucesso!
+Reenvio de 241627 ocorrido com sucesso!
+Reenvio de 241632 ocorrido com sucesso!
+Reenvio de 241633 ocorrido com sucesso!
+Reenvio de 241635 ocorrido com sucesso!
+Reenvio de 241639 ocorrido com sucesso!
+Reenvio de 241640 ocorrido com sucesso!
+Reenvio de 241643 ocorrido com sucesso!
+Reenvio de 241648 ocorrido com sucesso!
+Reenvio de 241650 ocorrido com sucesso!
+Reenvio de 241651 ocorrido com sucesso!
+Reenvio de 241652 ocorrido com sucesso!
+Reenvio de 241654 ocorrido com sucesso!
+Reenvio de 241656 ocorrido com sucesso!
+Reenvio de 241659 ocorrido com sucesso!
+Reenvio de 241663 ocorrido com sucesso!
+Reenvio de 241672 ocorrido com sucesso!
+Reenvio de 241674 ocorrido com sucesso!
+Reenvio de 241679 ocorrido com sucesso!
+Reenvio de 241680 ocorrido com sucesso!
+Reenvio de 241683 ocorrido com sucesso!
+Reenvio de 241684 ocorrido com sucesso!
+Reenvio de 241685 ocorrido com sucesso!
+Reenvio de 241688 ocorrido com sucesso!
+Reenvio de 241691 ocorrido com sucesso!
+Reenvio de 241692 ocorrido com sucesso!
+Reenvio de 241694 ocorrido com sucesso!
+Reenvio de 241700 ocorrido com sucesso!
+Reenvio de 241702 ocorrido com sucesso!
+Reenvio de 241703 ocorrido com sucesso!
+Reenvio de 241704 ocorrido com sucesso!
+Reenvio de 241706 ocorrido com sucesso!
+Reenvio de 241708 ocorrido com sucesso!
+Reenvio de 241715 ocorrido com sucesso!
+Reenvio de 241718 ocorrido com sucesso!
+Reenvio de 241719 ocorrido com sucesso!
+Reenvio de 241726 ocorrido com sucesso!
+Reenvio de 241727 ocorrido com sucesso!
+Reenvio de 241729 ocorrido com sucesso!
+Reenvio de 241732 ocorrido com sucesso!
+Reenvio de 241736 ocorrido com sucesso!
+Reenvio de 241740 ocorrido com sucesso!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.750356 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1573 ***
+*** Quantidade de Read: 375178 ***
+*** Quantidade de Notificações: 376751 ***
+*** Quantidade de reenvios: 151 ***
+*** Inserções: 375980
+*** Total esperado: 500000
+Reenvio de 241741 ocorrido com sucesso!
+Reenvio de 241743 ocorrido com sucesso!
+Reenvio de 241744 ocorrido com sucesso!
+Reenvio de 241746 ocorrido com sucesso!
+Reenvio de 241747 ocorrido com sucesso!
+Reenvio de 241749 ocorrido com sucesso!
+Reenvio de 241750 ocorrido com sucesso!
+Reenvio de 241752 ocorrido com sucesso!
+Reenvio de 241753 ocorrido com sucesso!
+Reenvio de 241756 ocorrido com sucesso!
+Reenvio de 241757 ocorrido com sucesso!
+Reenvio de 241759 ocorrido com sucesso!
+Reenvio de 241764 ocorrido com sucesso!
+Reenvio de 241772 ocorrido com sucesso!
+Reenvio de 241782 ocorrido com sucesso!
+Reenvio de 241784 ocorrido com sucesso!
+Reenvio de 241785 ocorrido com sucesso!
+Reenvio de 241786 ocorrido com sucesso!
+Reenvio de 241787 ocorrido com sucesso!
+Reenvio de 241790 ocorrido com sucesso!
+Reenvio de 241798 ocorrido com sucesso!
+Reenvio de 241799 ocorrido com sucesso!
+Reenvio de 241801 ocorrido com sucesso!
+Reenvio de 241804 ocorrido com sucesso!
+Reenvio de 241805 ocorrido com sucesso!
+Reenvio de 241806 ocorrido com sucesso!
+Reenvio de 241807 ocorrido com sucesso!
+Reenvio de 241811 ocorrido com sucesso!
+Reenvio de 241812 ocorrido com sucesso!
+Reenvio de 241813 ocorrido com sucesso!
+Reenvio de 241815 ocorrido com sucesso!
+Reenvio de 241817 ocorrido com sucesso!
+Reenvio de 241818 ocorrido com sucesso!
+Reenvio de 241821 ocorrido com sucesso!
+Reenvio de 241823 ocorrido com sucesso!
+Reenvio de 241828 ocorrido com sucesso!
+Reenvio de 241834 ocorrido com sucesso!
+Reenvio de 241835 ocorrido com sucesso!
+Reenvio de 241839 ocorrido com sucesso!
+Reenvio de 241841 ocorrido com sucesso!
+Reenvio de 241843 ocorrido com sucesso!
+Reenvio de 241847 ocorrido com sucesso!
+Reenvio de 241848 ocorrido com sucesso!
+Reenvio de 241849 ocorrido com sucesso!
+Reenvio de 241850 ocorrido com sucesso!
+Reenvio de 241851 ocorrido com sucesso!
+Reenvio de 241853 ocorrido com sucesso!
+Reenvio de 241854 ocorrido com sucesso!
+Reenvio de 241855 ocorrido com sucesso!
+Reenvio de 241857 ocorrido com sucesso!
+Reenvio de 241858 ocorrido com sucesso!
+Reenvio de 241860 ocorrido com sucesso!
+Reenvio de 241862 ocorrido com sucesso!
+Reenvio de 241866 ocorrido com sucesso!
+Reenvio de 241867 ocorrido com sucesso!
+Reenvio de 241870 ocorrido com sucesso!
+Reenvio de 241873 ocorrido com sucesso!
+Reenvio de 241878 ocorrido com sucesso!
+Reenvio de 241880 ocorrido com sucesso!
+Reenvio de 241881 ocorrido com sucesso!
+Reenvio de 241883 ocorrido com sucesso!
+Reenvio de 241884 ocorrido com sucesso!
+Reenvio de 241886 ocorrido com sucesso!
+Reenvio de 241887 ocorrido com sucesso!
+Reenvio de 241896 ocorrido com sucesso!
+Reenvio de 241900 ocorrido com sucesso!
+Reenvio de 241903 ocorrido com sucesso!
+Reenvio de 241905 ocorrido com sucesso!
+Reenvio de 241909 ocorrido com sucesso!
+Reenvio de 241910 ocorrido com sucesso!
+Reenvio de 241914 ocorrido com sucesso!
+Reenvio de 241920 ocorrido com sucesso!
+Reenvio de 241924 ocorrido com sucesso!
+Reenvio de 241927 ocorrido com sucesso!
+Reenvio de 242013 ocorrido com sucesso!
+Reenvio de 242020 ocorrido com sucesso!
+Reenvio de 242028 ocorrido com sucesso!
+Reenvio de 242032 ocorrido com sucesso!
+Reenvio de 242035 ocorrido com sucesso!
+Reenvio de 242041 ocorrido com sucesso!
+Reenvio de 242042 ocorrido com sucesso!
+Reenvio de 242044 ocorrido com sucesso!
+Reenvio de 242045 ocorrido com sucesso!
+Reenvio de 242047 ocorrido com sucesso!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.75073 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1854 ***
+*** Quantidade de Read: 375365 ***
+*** Quantidade de Notificações: 377219 ***
+*** Quantidade de reenvios: 235 ***
+*** Inserções: 376287
+*** Total esperado: 500000
+Reenvio de 242048 ocorrido com sucesso!
+Reenvio de 242051 ocorrido com sucesso!
+Reenvio de 242052 ocorrido com sucesso!
+Reenvio de 242054 ocorrido com sucesso!
+Reenvio de 242055 ocorrido com sucesso!
+Reenvio de 242056 ocorrido com sucesso!
+Reenvio de 242057 ocorrido com sucesso!
+Reenvio de 242058 ocorrido com sucesso!
+Reenvio de 242059 ocorrido com sucesso!
+Reenvio de 242062 ocorrido com sucesso!
+Reenvio de 242064 ocorrido com sucesso!
+Reenvio de 242066 ocorrido com sucesso!
+Reenvio de 242067 ocorrido com sucesso!
+Reenvio de 242068 ocorrido com sucesso!
+Reenvio de 242070 ocorrido com sucesso!
+Reenvio de 242071 ocorrido com sucesso!
+Reenvio de 242072 ocorrido com sucesso!
+Reenvio de 242075 ocorrido com sucesso!
+Reenvio de 242078 ocorrido com sucesso!
+Reenvio de 242079 ocorrido com sucesso!
+Reenvio de 242081 ocorrido com sucesso!
+Reenvio de 242082 ocorrido com sucesso!
+Reenvio de 242084 ocorrido com sucesso!
+Reenvio de 242087 ocorrido com sucesso!
+Reenvio de 242088 ocorrido com sucesso!
+Reenvio de 242089 ocorrido com sucesso!
+Reenvio de 242090 ocorrido com sucesso!
+Reenvio de 242093 ocorrido com sucesso!
+Reenvio de 242094 ocorrido com sucesso!
+Reenvio de 242095 ocorrido com sucesso!
+Reenvio de 242096 ocorrido com sucesso!
+Reenvio de 242098 ocorrido com sucesso!
+Reenvio de 242099 ocorrido com sucesso!
+Reenvio de 242100 ocorrido com sucesso!
+Reenvio de 242101 ocorrido com sucesso!
+Reenvio de 242102 ocorrido com sucesso!
+Reenvio de 242103 ocorrido com sucesso!
+Reenvio de 242106 ocorrido com sucesso!
+Reenvio de 242107 ocorrido com sucesso!
+Reenvio de 242109 ocorrido com sucesso!
+Reenvio de 242110 ocorrido com sucesso!
+Reenvio de 242111 ocorrido com sucesso!
+Reenvio de 242113 ocorrido com sucesso!
+Reenvio de 242114 ocorrido com sucesso!
+Reenvio de 242115 ocorrido com sucesso!
+Reenvio de 242116 ocorrido com sucesso!
+Reenvio de 242118 ocorrido com sucesso!
+Reenvio de 242119 ocorrido com sucesso!
+Reenvio de 242120 ocorrido com sucesso!
+Reenvio de 242121 ocorrido com sucesso!
+Reenvio de 242123 ocorrido com sucesso!
+Reenvio de 242124 ocorrido com sucesso!
+Reenvio de 242125 ocorrido com sucesso!
+Reenvio de 242126 ocorrido com sucesso!
+Reenvio de 242127 ocorrido com sucesso!
+Reenvio de 242128 ocorrido com sucesso!
+Reenvio de 242129 ocorrido com sucesso!
+Reenvio de 242130 ocorrido com sucesso!
+Reenvio de 242132 ocorrido com sucesso!
+Reenvio de 242133 ocorrido com sucesso!
+Reenvio de 242135 ocorrido com sucesso!
+Reenvio de 242136 ocorrido com sucesso!
+Reenvio de 242139 ocorrido com sucesso!
+Reenvio de 242140 ocorrido com sucesso!
+Reenvio de 242142 ocorrido com sucesso!
+Reenvio de 242143 ocorrido com sucesso!
+Reenvio de 242144 ocorrido com sucesso!
+Reenvio de 242145 ocorrido com sucesso!
+Reenvio de 242146 ocorrido com sucesso!
+Reenvio de 242147 ocorrido com sucesso!
+Reenvio de 242148 ocorrido com sucesso!
+Reenvio de 242149 ocorrido com sucesso!
+Reenvio de 242150 ocorrido com sucesso!
+Reenvio de 242153 ocorrido com sucesso!
+Reenvio de 242154 ocorrido com sucesso!
+Reenvio de 242156 ocorrido com sucesso!
+Reenvio de 242157 ocorrido com sucesso!
+Reenvio de 242159 ocorrido com sucesso!
+Reenvio de 242160 ocorrido com sucesso!
+Reenvio de 242161 ocorrido com sucesso!
+Reenvio de 242162 ocorrido com sucesso!
+Reenvio de 242163 ocorrido com sucesso!
+Reenvio de 242164 ocorrido com sucesso!
+Reenvio de 242165 ocorrido com sucesso!
+Reenvio de 242170 ocorrido com sucesso!
+Reenvio de 242171 ocorrido com sucesso!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.751236 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2397 ***
+*** Quantidade de Read: 375618 ***
+*** Quantidade de Notificações: 378015 ***
+*** Quantidade de reenvios: 321 ***
+*** Inserções: 376413
+*** Total esperado: 500000
+Reenvio de 242174 ocorrido com sucesso!
+Reenvio de 242175 ocorrido com sucesso!
+Reenvio de 242177 ocorrido com sucesso!
+Reenvio de 242178 ocorrido com sucesso!
+Reenvio de 242179 ocorrido com sucesso!
+Reenvio de 242182 ocorrido com sucesso!
+Reenvio de 242185 ocorrido com sucesso!
+Reenvio de 242187 ocorrido com sucesso!
+Reenvio de 242189 ocorrido com sucesso!
+Reenvio de 242190 ocorrido com sucesso!
+Reenvio de 242191 ocorrido com sucesso!
+Reenvio de 242195 ocorrido com sucesso!
+Reenvio de 242198 ocorrido com sucesso!
+Reenvio de 242199 ocorrido com sucesso!
+Reenvio de 242201 ocorrido com sucesso!
+Reenvio de 242202 ocorrido com sucesso!
+Reenvio de 242203 ocorrido com sucesso!
+Reenvio de 242204 ocorrido com sucesso!
+Reenvio de 242205 ocorrido com sucesso!
+Reenvio de 242207 ocorrido com sucesso!
+Reenvio de 242208 ocorrido com sucesso!
+Reenvio de 242209 ocorrido com sucesso!
+Reenvio de 242210 ocorrido com sucesso!
+Reenvio de 242211 ocorrido com sucesso!
+Reenvio de 242212 ocorrido com sucesso!
+Reenvio de 242214 ocorrido com sucesso!
+Reenvio de 242215 ocorrido com sucesso!
+Reenvio de 242216 ocorrido com sucesso!
+Reenvio de 242218 ocorrido com sucesso!
+Reenvio de 242219 ocorrido com sucesso!
+Reenvio de 242220 ocorrido com sucesso!
+Reenvio de 242221 ocorrido com sucesso!
+Reenvio de 242222 ocorrido com sucesso!
+Reenvio de 242223 ocorrido com sucesso!
+Reenvio de 242227 ocorrido com sucesso!
+Reenvio de 242229 ocorrido com sucesso!
+Reenvio de 242230 ocorrido com sucesso!
+Reenvio de 242231 ocorrido com sucesso!
+Reenvio de 242232 ocorrido com sucesso!
+Reenvio de 242233 ocorrido com sucesso!
+Reenvio de 242234 ocorrido com sucesso!
+Reenvio de 242236 ocorrido com sucesso!
+Reenvio de 242237 ocorrido com sucesso!
+Reenvio de 242238 ocorrido com sucesso!
+Reenvio de 242239 ocorrido com sucesso!
+Reenvio de 242240 ocorrido com sucesso!
+Reenvio de 242241 ocorrido com sucesso!
+Reenvio de 242243 ocorrido com sucesso!
+Reenvio de 242244 ocorrido com sucesso!
+Reenvio de 242245 ocorrido com sucesso!
+Reenvio de 242246 ocorrido com sucesso!
+Reenvio de 242247 ocorrido com sucesso!
+Reenvio de 242249 ocorrido com sucesso!
+Reenvio de 242250 ocorrido com sucesso!
+Reenvio de 242251 ocorrido com sucesso!
+Reenvio de 242253 ocorrido com sucesso!
+Reenvio de 242254 ocorrido com sucesso!
+Reenvio de 242257 ocorrido com sucesso!
+Reenvio de 242258 ocorrido com sucesso!
+Reenvio de 242259 ocorrido com sucesso!
+Reenvio de 242260 ocorrido com sucesso!
+Reenvio de 242262 ocorrido com sucesso!
+Reenvio de 242263 ocorrido com sucesso!
+Reenvio de 242265 ocorrido com sucesso!
+Reenvio de 242266 ocorrido com sucesso!
+Reenvio de 242267 ocorrido com sucesso!
+Reenvio de 242268 ocorrido com sucesso!
+Reenvio de 242269 ocorrido com sucesso!
+Reenvio de 242270 ocorrido com sucesso!
+Reenvio de 242272 ocorrido com sucesso!
+Reenvio de 242273 ocorrido com sucesso!
+Reenvio de 242275 ocorrido com sucesso!
+Reenvio de 242276 ocorrido com sucesso!
+Reenvio de 242279 ocorrido com sucesso!
+Reenvio de 242280 ocorrido com sucesso!
+Reenvio de 242281 ocorrido com sucesso!
+Reenvio de 242282 ocorrido com sucesso!
+Reenvio de 242283 ocorrido com sucesso!
+Reenvio de 242284 ocorrido com sucesso!
+Reenvio de 242289 ocorrido com sucesso!
+Reenvio de 242290 ocorrido com sucesso!
+Reenvio de 242292 ocorrido com sucesso!
+Reenvio de 242293 ocorrido com sucesso!
+Reenvio de 242295 ocorrido com sucesso!
+Reenvio de 242297 ocorrido com sucesso!
+Reenvio de 242298 ocorrido com sucesso!
+Reenvio de 242299 ocorrido com sucesso!
+Reenvio de 242302 ocorrido com sucesso!
+Reenvio de 242306 ocorrido com sucesso!
+Reenvio de 242308 ocorrido com sucesso!
+Reenvio de 242309 ocorrido com sucesso!
+Reenvio de 242310 ocorrido com sucesso!
+Reenvio de 242311 ocorrido com sucesso!
+Reenvio de 242312 ocorrido com sucesso!
+Reenvio de 242313 ocorrido com sucesso!
+Reenvio de 242315 ocorrido com sucesso!
+Reenvio de 242316 ocorrido com sucesso!
+Reenvio de 242317 ocorrido com sucesso!
+Reenvio de 242318 ocorrido com sucesso!
+Reenvio de 242319 ocorrido com sucesso!
+Reenvio de 242321 ocorrido com sucesso!
+Reenvio de 242322 ocorrido com sucesso!
+Reenvio de 242323 ocorrido com sucesso!
+Reenvio de 242324 ocorrido com sucesso!
+Reenvio de 242325 ocorrido com sucesso!
+Reenvio de 242326 ocorrido com sucesso!
+Reenvio de 242328 ocorrido com sucesso!
+Reenvio de 242329 ocorrido com sucesso!
+Reenvio de 242332 ocorrido com sucesso!
+Reenvio de 242333 ocorrido com sucesso!
+Reenvio de 242334 ocorrido com sucesso!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.751486 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3710 ***
+*** Quantidade de Read: 375743 ***
+*** Quantidade de Notificações: 379453 ***
+*** Quantidade de reenvios: 432 ***
+*** Inserções: 376575
+*** Total esperado: 500000
+Reenvio de 242336 ocorrido com sucesso!
+Reenvio de 242337 ocorrido com sucesso!
+Reenvio de 242338 ocorrido com sucesso!
+Reenvio de 242339 ocorrido com sucesso!
+Reenvio de 242340 ocorrido com sucesso!
+Reenvio de 242341 ocorrido com sucesso!
+Reenvio de 242342 ocorrido com sucesso!
+Reenvio de 242343 ocorrido com sucesso!
+Reenvio de 242346 ocorrido com sucesso!
+Reenvio de 242349 ocorrido com sucesso!
+Reenvio de 242350 ocorrido com sucesso!
+Reenvio de 242351 ocorrido com sucesso!
+Reenvio de 242352 ocorrido com sucesso!
+Reenvio de 242353 ocorrido com sucesso!
+Reenvio de 242354 ocorrido com sucesso!
+Reenvio de 242355 ocorrido com sucesso!
+Reenvio de 242356 ocorrido com sucesso!
+Reenvio de 242357 ocorrido com sucesso!
+Reenvio de 242358 ocorrido com sucesso!
+Reenvio de 242359 ocorrido com sucesso!
+Reenvio de 242360 ocorrido com sucesso!
+Reenvio de 242361 ocorrido com sucesso!
+Reenvio de 242362 ocorrido com sucesso!
+Reenvio de 242363 ocorrido com sucesso!
+Reenvio de 242366 ocorrido com sucesso!
+Reenvio de 242367 ocorrido com sucesso!
+Reenvio de 242368 ocorrido com sucesso!
+Reenvio de 242369 ocorrido com sucesso!
+Reenvio de 242370 ocorrido com sucesso!
+Reenvio de 242371 ocorrido com sucesso!
+Reenvio de 242372 ocorrido com sucesso!
+Reenvio de 242373 ocorrido com sucesso!
+Reenvio de 242374 ocorrido com sucesso!
+Reenvio de 242376 ocorrido com sucesso!
+Reenvio de 242377 ocorrido com sucesso!
+Reenvio de 242378 ocorrido com sucesso!
+Reenvio de 242379 ocorrido com sucesso!
+Reenvio de 242380 ocorrido com sucesso!
+Reenvio de 242382 ocorrido com sucesso!
+Reenvio de 242383 ocorrido com sucesso!
+Reenvio de 242385 ocorrido com sucesso!
+Reenvio de 242386 ocorrido com sucesso!
+Reenvio de 242387 ocorrido com sucesso!
+Reenvio de 242388 ocorrido com sucesso!
+Reenvio de 242389 ocorrido com sucesso!
+Reenvio de 242390 ocorrido com sucesso!
+Reenvio de 242393 ocorrido com sucesso!
+Reenvio de 242394 ocorrido com sucesso!
+Reenvio de 242395 ocorrido com sucesso!
+Reenvio de 242396 ocorrido com sucesso!
+Reenvio de 242397 ocorrido com sucesso!
+Reenvio de 242398 ocorrido com sucesso!
+Reenvio de 242399 ocorrido com sucesso!
+Reenvio de 242400 ocorrido com sucesso!
+Reenvio de 242403 ocorrido com sucesso!
+Reenvio de 242405 ocorrido com sucesso!
+Reenvio de 242406 ocorrido com sucesso!
+Reenvio de 242407 ocorrido com sucesso!
+Reenvio de 242410 ocorrido com sucesso!
+Reenvio de 242411 ocorrido com sucesso!
+Reenvio de 242412 ocorrido com sucesso!
+Reenvio de 242414 ocorrido com sucesso!
+Reenvio de 242417 ocorrido com sucesso!
+Reenvio de 242419 ocorrido com sucesso!
+Reenvio de 242421 ocorrido com sucesso!
+Reenvio de 242422 ocorrido com sucesso!
+Reenvio de 242423 ocorrido com sucesso!
+Reenvio de 242425 ocorrido com sucesso!
+Reenvio de 242426 ocorrido com sucesso!
+Reenvio de 242427 ocorrido com sucesso!
+Reenvio de 242429 ocorrido com sucesso!
+Reenvio de 242430 ocorrido com sucesso!
+Reenvio de 242431 ocorrido com sucesso!
+Reenvio de 242434 ocorrido com sucesso!
+Reenvio de 242436 ocorrido com sucesso!
+Reenvio de 242437 ocorrido com sucesso!
+Reenvio de 242439 ocorrido com sucesso!
+Reenvio de 242441 ocorrido com sucesso!
+Reenvio de 242446 ocorrido com sucesso!
+Reenvio de 242447 ocorrido com sucesso!
+Reenvio de 242448 ocorrido com sucesso!
+Reenvio de 242450 ocorrido com sucesso!
+Reenvio de 242451 ocorrido com sucesso!
+Reenvio de 242452 ocorrido com sucesso!
+Reenvio de 242453 ocorrido com sucesso!
+Reenvio de 242455 ocorrido com sucesso!
+Reenvio de 242456 ocorrido com sucesso!
+Reenvio de 242457 ocorrido com sucesso!
+Reenvio de 242458 ocorrido com sucesso!
+Reenvio de 242459 ocorrido com sucesso!
+Reenvio de 242460 ocorrido com sucesso!
+Reenvio de 242464 ocorrido com sucesso!
+Reenvio de 242465 ocorrido com sucesso!
+Reenvio de 242466 ocorrido com sucesso!
+Reenvio de 242468 ocorrido com sucesso!
+Reenvio de 242469 ocorrido com sucesso!
+Reenvio de 242471 ocorrido com sucesso!
+Reenvio de 242472 ocorrido com sucesso!
+Reenvio de 242474 ocorrido com sucesso!
+Reenvio de 242475 ocorrido com sucesso!
+Reenvio de 242476 ocorrido com sucesso!
+Reenvio de 242477 ocorrido com sucesso!
+Reenvio de 242478 ocorrido com sucesso!
+Reenvio de 242479 ocorrido com sucesso!
+Reenvio de 242480 ocorrido com sucesso!
+Reenvio de 242481 ocorrido com sucesso!
+Reenvio de 242482 ocorrido com sucesso!
+Reenvio de 242483 ocorrido com sucesso!
+Reenvio de 242485 ocorrido com sucesso!
+Reenvio de 242488 ocorrido com sucesso!
+Reenvio de 242489 ocorrido com sucesso!
+Reenvio de 242491 ocorrido com sucesso!
+Reenvio de 242492 ocorrido com sucesso!
+Reenvio de 242493 ocorrido com sucesso!
+Reenvio de 242494 ocorrido com sucesso!
+Reenvio de 242495 ocorrido com sucesso!
+Reenvio de 242496 ocorrido com sucesso!
+Reenvio de 242497 ocorrido com sucesso!
+Reenvio de 242499 ocorrido com sucesso!
+Reenvio de 242502 ocorrido com sucesso!
+Reenvio de 242503 ocorrido com sucesso!
+Reenvio de 242504 ocorrido com sucesso!
+Reenvio de 242506 ocorrido com sucesso!
+Reenvio de 242509 ocorrido com sucesso!
+Reenvio de 242511 ocorrido com sucesso!
+Reenvio de 242512 ocorrido com sucesso!
+Reenvio de 242513 ocorrido com sucesso!
+Reenvio de 242515 ocorrido com sucesso!
+Reenvio de 242517 ocorrido com sucesso!
+Reenvio de 242518 ocorrido com sucesso!
+Reenvio de 242519 ocorrido com sucesso!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.751822 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4534 ***
+*** Quantidade de Read: 375911 ***
+*** Quantidade de Notificações: 380445 ***
+*** Quantidade de reenvios: 563 ***
+*** Inserções: 376760
+*** Total esperado: 500000
+Reenvio de 242521 ocorrido com sucesso!
+Reenvio de 242522 ocorrido com sucesso!
+Reenvio de 242523 ocorrido com sucesso!
+Reenvio de 242524 ocorrido com sucesso!
+Reenvio de 242525 ocorrido com sucesso!
+Reenvio de 242526 ocorrido com sucesso!
+Reenvio de 242527 ocorrido com sucesso!
+Reenvio de 242528 ocorrido com sucesso!
+Reenvio de 242530 ocorrido com sucesso!
+Reenvio de 242531 ocorrido com sucesso!
+Reenvio de 242532 ocorrido com sucesso!
+Reenvio de 242533 ocorrido com sucesso!
+Reenvio de 242534 ocorrido com sucesso!
+Reenvio de 242535 ocorrido com sucesso!
+Reenvio de 242536 ocorrido com sucesso!
+Reenvio de 242537 ocorrido com sucesso!
+Reenvio de 242539 ocorrido com sucesso!
+Reenvio de 242540 ocorrido com sucesso!
+Reenvio de 242541 ocorrido com sucesso!
+Reenvio de 242542 ocorrido com sucesso!
+Reenvio de 242543 ocorrido com sucesso!
+Reenvio de 242544 ocorrido com sucesso!
+Reenvio de 242545 ocorrido com sucesso!
+Reenvio de 242546 ocorrido com sucesso!
+Reenvio de 242547 ocorrido com sucesso!
+Reenvio de 242552 ocorrido com sucesso!
+Reenvio de 242554 ocorrido com sucesso!
+Reenvio de 242555 ocorrido com sucesso!
+Reenvio de 242558 ocorrido com sucesso!
+Reenvio de 242559 ocorrido com sucesso!
+Reenvio de 242560 ocorrido com sucesso!
+Reenvio de 242562 ocorrido com sucesso!
+Reenvio de 242563 ocorrido com sucesso!
+Reenvio de 242564 ocorrido com sucesso!
+Reenvio de 242565 ocorrido com sucesso!
+Reenvio de 242566 ocorrido com sucesso!
+Reenvio de 242567 ocorrido com sucesso!
+Reenvio de 242569 ocorrido com sucesso!
+Reenvio de 242570 ocorrido com sucesso!
+Reenvio de 242571 ocorrido com sucesso!
+Reenvio de 242572 ocorrido com sucesso!
+Reenvio de 242573 ocorrido com sucesso!
+Reenvio de 242575 ocorrido com sucesso!
+Reenvio de 242576 ocorrido com sucesso!
+Reenvio de 242577 ocorrido com sucesso!
+Reenvio de 242578 ocorrido com sucesso!
+Reenvio de 242579 ocorrido com sucesso!
+Reenvio de 242580 ocorrido com sucesso!
+Reenvio de 242597 ocorrido com sucesso!
+Reenvio de 242600 ocorrido com sucesso!
+Reenvio de 242601 ocorrido com sucesso!
+Reenvio de 242603 ocorrido com sucesso!
+Reenvio de 242606 ocorrido com sucesso!
+Reenvio de 242609 ocorrido com sucesso!
+Reenvio de 242612 ocorrido com sucesso!
+Reenvio de 242614 ocorrido com sucesso!
+Reenvio de 242630 ocorrido com sucesso!
+Reenvio de 242638 ocorrido com sucesso!
+Reenvio de 242648 ocorrido com sucesso!
+Reenvio de 242651 ocorrido com sucesso!
+Reenvio de 242656 ocorrido com sucesso!
+Reenvio de 242658 ocorrido com sucesso!
+Reenvio de 242667 ocorrido com sucesso!
+Reenvio de 242668 ocorrido com sucesso!
+Reenvio de 242669 ocorrido com sucesso!
+Reenvio de 242672 ocorrido com sucesso!
+Reenvio de 242676 ocorrido com sucesso!
+Reenvio de 242680 ocorrido com sucesso!
+Reenvio de 242683 ocorrido com sucesso!
+Reenvio de 242685 ocorrido com sucesso!
+Reenvio de 242687 ocorrido com sucesso!
+Reenvio de 242688 ocorrido com sucesso!
+Reenvio de 242692 ocorrido com sucesso!
+Reenvio de 242702 ocorrido com sucesso!
+Reenvio de 242703 ocorrido com sucesso!
+Reenvio de 242710 ocorrido com sucesso!
+Reenvio de 242711 ocorrido com sucesso!
+Reenvio de 242714 ocorrido com sucesso!
+Reenvio de 242717 ocorrido com sucesso!
+Reenvio de 242721 ocorrido com sucesso!
+Reenvio de 242722 ocorrido com sucesso!
+Reenvio de 242724 ocorrido com sucesso!
+Reenvio de 242727 ocorrido com sucesso!
+Reenvio de 242729 ocorrido com sucesso!
+Reenvio de 242732 ocorrido com sucesso!
+Reenvio de 242736 ocorrido com sucesso!
+Reenvio de 242737 ocorrido com sucesso!
+Reenvio de 242738 ocorrido com sucesso!
+Reenvio de 242739 ocorrido com sucesso!
+Reenvio de 242742 ocorrido com sucesso!
+Reenvio de 242746 ocorrido com sucesso!
+Reenvio de 242752 ocorrido com sucesso!
+Reenvio de 242756 ocorrido com sucesso!
+Reenvio de 242762 ocorrido com sucesso!
+Reenvio de 242763 ocorrido com sucesso!
+Reenvio de 242767 ocorrido com sucesso!
+Reenvio de 242768 ocorrido com sucesso!
+Reenvio de 242778 ocorrido com sucesso!
+Reenvio de 242780 ocorrido com sucesso!
+Reenvio de 242781 ocorrido com sucesso!
+Reenvio de 242783 ocorrido com sucesso!
+Reenvio de 242784 ocorrido com sucesso!
+Reenvio de 242788 ocorrido com sucesso!
+Reenvio de 242791 ocorrido com sucesso!
+Reenvio de 242793 ocorrido com sucesso!
+Reenvio de 242795 ocorrido com sucesso!
+Reenvio de 242797 ocorrido com sucesso!
+Reenvio de 242799 ocorrido com sucesso!
+Reenvio de 242800 ocorrido com sucesso!
+Reenvio de 242803 ocorrido com sucesso!
+Reenvio de 242809 ocorrido com sucesso!
+Reenvio de 242810 ocorrido com sucesso!
+Reenvio de 242811 ocorrido com sucesso!
+Reenvio de 242813 ocorrido com sucesso!
+Reenvio de 242814 ocorrido com sucesso!
+Reenvio de 242820 ocorrido com sucesso!
+Reenvio de 242823 ocorrido com sucesso!
+Reenvio de 242827 ocorrido com sucesso!
+Reenvio de 242832 ocorrido com sucesso!
+Reenvio de 242835 ocorrido com sucesso!
+Reenvio de 242840 ocorrido com sucesso!
+Reenvio de 242841 ocorrido com sucesso!
+Reenvio de 242843 ocorrido com sucesso!
+Reenvio de 242844 ocorrido com sucesso!
+Reenvio de 242845 ocorrido com sucesso!
+Reenvio de 242853 ocorrido com sucesso!
+Reenvio de 242856 ocorrido com sucesso!
+Reenvio de 242867 ocorrido com sucesso!
+Reenvio de 242868 ocorrido com sucesso!
+Reenvio de 242869 ocorrido com sucesso!
+Reenvio de 242870 ocorrido com sucesso!
+Reenvio de 242871 ocorrido com sucesso!
+Reenvio de 242882 ocorrido com sucesso!
+Reenvio de 242884 ocorrido com sucesso!
+Reenvio de 242885 ocorrido com sucesso!
+Reenvio de 242886 ocorrido com sucesso!
+Reenvio de 242888 ocorrido com sucesso!
+Reenvio de 242893 ocorrido com sucesso!
+Reenvio de 242895 ocorrido com sucesso!
+Reenvio de 242898 ocorrido com sucesso!
+Reenvio de 242899 ocorrido com sucesso!
+Reenvio de 242904 ocorrido com sucesso!
+Reenvio de 242910 ocorrido com sucesso!
+Reenvio de 242911 ocorrido com sucesso!
+Reenvio de 242913 ocorrido com sucesso!
+Reenvio de 242918 ocorrido com sucesso!
+Reenvio de 242920 ocorrido com sucesso!
+Reenvio de 242921 ocorrido com sucesso!
+Reenvio de 242922 ocorrido com sucesso!
+Reenvio de 242928 ocorrido com sucesso!
+Reenvio de 242932 ocorrido com sucesso!
+Reenvio de 242934 ocorrido com sucesso!
+Reenvio de 242937 ocorrido com sucesso!
+Reenvio de 242940 ocorrido com sucesso!
+Reenvio de 242946 ocorrido com sucesso!
+Reenvio de 242948 ocorrido com sucesso!
+Reenvio de 242949 ocorrido com sucesso!
+Reenvio de 242953 ocorrido com sucesso!
+Reenvio de 242955 ocorrido com sucesso!
+Reenvio de 242960 ocorrido com sucesso!
+Reenvio de 242962 ocorrido com sucesso!
+Reenvio de 242964 ocorrido com sucesso!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.75242 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 6229 ***
+*** Quantidade de Read: 376210 ***
+*** Quantidade de Notificações: 382439 ***
+*** Quantidade de reenvios: 725 ***
+*** Inserções: 377204
+*** Total esperado: 500000
+Reenvio de 242965 ocorrido com sucesso!
+Reenvio de 242969 ocorrido com sucesso!
+Reenvio de 242971 ocorrido com sucesso!
+Reenvio de 242972 ocorrido com sucesso!
+Reenvio de 242973 ocorrido com sucesso!
+Reenvio de 242976 ocorrido com sucesso!
+Reenvio de 242977 ocorrido com sucesso!
+Reenvio de 242979 ocorrido com sucesso!
+Reenvio de 242981 ocorrido com sucesso!
+Reenvio de 242982 ocorrido com sucesso!
+Reenvio de 242983 ocorrido com sucesso!
+Reenvio de 242986 ocorrido com sucesso!
+Reenvio de 242988 ocorrido com sucesso!
+Reenvio de 242992 ocorrido com sucesso!
+Reenvio de 242993 ocorrido com sucesso!
+Reenvio de 242994 ocorrido com sucesso!
+Reenvio de 242995 ocorrido com sucesso!
+Reenvio de 242998 ocorrido com sucesso!
+Reenvio de 242999 ocorrido com sucesso!
+Reenvio de 243007 ocorrido com sucesso!
+Reenvio de 243008 ocorrido com sucesso!
+Reenvio de 243009 ocorrido com sucesso!
+Reenvio de 243010 ocorrido com sucesso!
+Reenvio de 243014 ocorrido com sucesso!
+Reenvio de 243015 ocorrido com sucesso!
+Reenvio de 243019 ocorrido com sucesso!
+Reenvio de 243021 ocorrido com sucesso!
+Reenvio de 243022 ocorrido com sucesso!
+Reenvio de 243025 ocorrido com sucesso!
+Reenvio de 243027 ocorrido com sucesso!
+Reenvio de 243029 ocorrido com sucesso!
+Reenvio de 243033 ocorrido com sucesso!
+Reenvio de 243036 ocorrido com sucesso!
+Reenvio de 243037 ocorrido com sucesso!
+Reenvio de 243039 ocorrido com sucesso!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.76513 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 382565 ***
+*** Quantidade de Notificações: 382566 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 397312
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.77636 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 388180 ***
+*** Quantidade de Notificações: 388181 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 397312
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.784898 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 392449 ***
+*** Quantidade de Notificações: 392450 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 399360
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.792328 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 396164 ***
+*** Quantidade de Notificações: 396165 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 401408
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.798506 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 399253 ***
+*** Quantidade de Notificações: 399254 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 403456
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.804092 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 402046 ***
+*** Quantidade de Notificações: 402047 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 403456
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.805702 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 402851 ***
+*** Quantidade de Notificações: 402852 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 405504
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.810318 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 405159 ***
+*** Quantidade de Notificações: 405159 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 407552
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.812376 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 406188 ***
+*** Quantidade de Notificações: 406190 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 407552
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.81238 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 406190 ***
+*** Quantidade de Notificações: 406192 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 407552
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.816474 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 408237 ***
+*** Quantidade de Notificações: 408239 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 409600
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.820522 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 410261 ***
+*** Quantidade de Notificações: 410263 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 411648
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.820528 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 410264 ***
+*** Quantidade de Notificações: 410266 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 411648
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.824656 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 412328 ***
+*** Quantidade de Notificações: 412330 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 413696
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.828138 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 414069 ***
+*** Quantidade de Notificações: 414069 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 415744
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.828722 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 414361 ***
+*** Quantidade de Notificações: 414364 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 415744
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.83279 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 416395 ***
+*** Quantidade de Notificações: 416397 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 417792
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.834034 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 417017 ***
+*** Quantidade de Notificações: 417018 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 419840
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.83725 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 418625 ***
+*** Quantidade de Notificações: 418627 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 419840
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.837252 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 418626 ***
+*** Quantidade de Notificações: 418628 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 419840
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.84122 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 420610 ***
+*** Quantidade de Notificações: 420612 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 421888
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.844736 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 422368 ***
+*** Quantidade de Notificações: 422368 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 423936
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.845132 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 422566 ***
+*** Quantidade de Notificações: 422568 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 423936
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.849322 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 424661 ***
+*** Quantidade de Notificações: 424663 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 425984
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.849956 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 424978 ***
+*** Quantidade de Notificações: 424979 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 428032
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.853444 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 426722 ***
+*** Quantidade de Notificações: 426725 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 428032
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.856322 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 428161 ***
+*** Quantidade de Notificações: 428162 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 430080
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.857504 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 428752 ***
+*** Quantidade de Notificações: 428754 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 430080
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.861018 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 430509 ***
+*** Quantidade de Notificações: 430509 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 432128
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.86179 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 430895 ***
+*** Quantidade de Notificações: 430897 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 432128
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.865628 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 432814 ***
+*** Quantidade de Notificações: 432815 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 434176
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.865792 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 432896 ***
+*** Quantidade de Notificações: 432898 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 434176
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.869776 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 434888 ***
+*** Quantidade de Notificações: 434890 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 436224
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.872512 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 436256 ***
+*** Quantidade de Notificações: 436256 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 438272
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.873856 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 436928 ***
+*** Quantidade de Notificações: 436930 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 438272
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.873858 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 436929 ***
+*** Quantidade de Notificações: 436931 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 438272
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.87793 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 438965 ***
+*** Quantidade de Notificações: 438967 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 440320
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.881856 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 440928 ***
+*** Quantidade de Notificações: 440928 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 442368
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.881952 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 440976 ***
+*** Quantidade de Notificações: 440979 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 442368
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.886362 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 443181 ***
+*** Quantidade de Notificações: 443183 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 444416
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.888672 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 444336 ***
+*** Quantidade de Notificações: 444337 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 446464
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.890376 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 445188 ***
+*** Quantidade de Notificações: 445190 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 446464
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.890376 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 445188 ***
+*** Quantidade de Notificações: 445191 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 446464
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.894582 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 447291 ***
+*** Quantidade de Notificações: 447293 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 448512
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.898518 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 449259 ***
+*** Quantidade de Notificações: 449261 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 450560
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.89852 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 449260 ***
+*** Quantidade de Notificações: 449262 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 450560
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.90185 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 450925 ***
+*** Quantidade de Notificações: 450926 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 452608
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.903104 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 451552 ***
+*** Quantidade de Notificações: 451553 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 454656
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.906842 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 453421 ***
+*** Quantidade de Notificações: 453423 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 454656
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.910004 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 455002 ***
+*** Quantidade de Notificações: 455002 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 456704
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.910878 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 455439 ***
+*** Quantidade de Notificações: 455441 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 456704
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.912182 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 456091 ***
+*** Quantidade de Notificações: 456092 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 458752
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.914932 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 457466 ***
+*** Quantidade de Notificações: 457468 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 458752
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.91883 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 459415 ***
+*** Quantidade de Notificações: 459415 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 460800
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.919126 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 459563 ***
+*** Quantidade de Notificações: 459565 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 460800
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.92109 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 460545 ***
+*** Quantidade de Notificações: 460546 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 462848
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.923184 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 461592 ***
+*** Quantidade de Notificações: 461595 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 462848
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.927136 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 463568 ***
+*** Quantidade de Notificações: 463570 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 464896
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.92714 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 463570 ***
+*** Quantidade de Notificações: 463572 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 464896
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.930772 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 465386 ***
+*** Quantidade de Notificações: 465387 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 466944
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.933308 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 466654 ***
+*** Quantidade de Notificações: 466655 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 468992
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.936172 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 468086 ***
+*** Quantidade de Notificações: 468087 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 471040
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.939562 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 469781 ***
+*** Quantidade de Notificações: 469783 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 471040
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.939562 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 469781 ***
+*** Quantidade de Notificações: 469784 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 471040
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.943538 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 471769 ***
+*** Quantidade de Notificações: 471771 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 473088
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.94734 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 473670 ***
+*** Quantidade de Notificações: 473672 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 475136
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.94734 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 4 ***
+*** Quantidade de Read: 473670 ***
+*** Quantidade de Notificações: 473674 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 475136
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.951514 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 475757 ***
+*** Quantidade de Notificações: 475759 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 477184
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.954734 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 477367 ***
+*** Quantidade de Notificações: 477367 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 479232
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.95552 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 477760 ***
+*** Quantidade de Notificações: 477762 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 479232
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.959574 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 479787 ***
+*** Quantidade de Notificações: 479789 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 481280
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.959578 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 3 ***
+*** Quantidade de Read: 479789 ***
+*** Quantidade de Notificações: 479792 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 481280
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.964018 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 482009 ***
+*** Quantidade de Notificações: 482011 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 483328
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.966964 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 483482 ***
+*** Quantidade de Notificações: 483482 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 485376
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.968256 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 484128 ***
+*** Quantidade de Notificações: 484130 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 485376
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.971976 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 485988 ***
+*** Quantidade de Notificações: 485988 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 487424
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.97412 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 487060 ***
+*** Quantidade de Notificações: 487061 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 489472
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.976302 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 488151 ***
+*** Quantidade de Notificações: 488153 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 489472
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.979372 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 489686 ***
+*** Quantidade de Notificações: 489686 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 491520
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.98025 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 490125 ***
+*** Quantidade de Notificações: 490127 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 491520
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.98439 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 492195 ***
+*** Quantidade de Notificações: 492197 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 493568
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.986752 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 493376 ***
+*** Quantidade de Notificações: 493376 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 495616
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.98855 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 494275 ***
+*** Quantidade de Notificações: 494277 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 495616
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.989926 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 1 ***
+*** Quantidade de Read: 494963 ***
+*** Quantidade de Notificações: 494964 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 497664
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.992508 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 2 ***
+*** Quantidade de Read: 496254 ***
+*** Quantidade de Notificações: 496256 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 497664
+*** Total esperado: 500000
+Produção de mensagens acabou, inicializar timeout para varrer lista.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.996446 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 498223 ***
+*** Quantidade de Notificações: 498223 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.998258 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499129 ***
+*** Quantidade de Notificações: 499129 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*** % De mensagens confirmadas: 0.99848 ***
+*** Tamanho da lista: 67500 ***
+*** Size Received: 0 ***
+*** Quantidade de Read: 499240 ***
+*** Quantidade de Notificações: 499240 ***
+*** Quantidade de reenvios: 760 ***
+*** Inserções: 500000
+*** Total esperado: 500000
+Produção de mensagens encerrada.
+*** Iniciando contagem das mensagens que não foram enviados.... ***
+*** total de : 0 não confirmados. ***
+Tempo de retransmissao: 102.21

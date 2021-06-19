@@ -9,6 +9,7 @@ df['ack'] = df['ack'].astype(str)
 #df.drop(df.index[df['ack'] == '0'], inplace=True)
 
 plt.tight_layout()
+plt.figure(figsize=(50, 20))
 
 df['ack'] = df['ack'].replace({'-2': 'Reliable Ack'})
 df['ack'] = df['ack'].replace({'-1': 'Replicas Confirm.'})
@@ -17,7 +18,7 @@ df['ack'] = df['ack'].replace({'1': 'Leader Confirm.'})
 
 print(df) 
 
-sns.set(style = 'white')
+sns.set(style = 'ticks')
 
 hue_order = ['Fire and Forget', 'Reliable Ack', 'Leader Confirm.', 'Replicas Confirm.']
 
@@ -35,5 +36,4 @@ plt.xlabel('Tempo de execução (seg)')
 
 #plt.savefig('./pdfs/loss-vazao-FF.pdf', bbox_inches='tight', dpi=600)
 plt.savefig('./pdfs/loss-tempo-FF.pdf', bbox_inches='tight', dpi=600)
-
 plt.clf()
