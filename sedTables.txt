@@ -6,5 +6,3 @@ cat log-6-0-* | grep Aplication | cut -d ' ' -f 3 | sed 's/\./,/'
 
 cat log-6-0-* | grep "producer-topic-metrics:record-send-rate" | cut -d ' ' -f 6 | sed 's/\./,/'
 
-
-
