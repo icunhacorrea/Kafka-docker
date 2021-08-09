@@ -3,9 +3,9 @@
 docker-compose down -v
 docker system prune -f
 
-for delay in 300; do
-	for ack in -2; do
-		for i in {20..34}; do
+for delay in 100 200 300; do
+	for ack in 0; do
+		for i in {20..39}; do
 			echo $i $ack $delay
 
 			docker-compose up -d
